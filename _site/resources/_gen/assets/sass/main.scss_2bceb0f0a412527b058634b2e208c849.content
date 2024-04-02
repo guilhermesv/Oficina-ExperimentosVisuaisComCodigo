@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@font-face {
+  font-family: '5by7';
+  src: url("../fonts/5by7_b-webfont.woff2") format("woff2"), url("../fonts/5by7_b-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GeistMonoVF';
+  src: url("../fonts/GeistMonoVF.woff2") format("woff2"), url("../fonts/GeistMonoVF.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+:root {
+  --fonte-destaque: "5by7", sans-serif;
+  --fonte-principal: "GeistMonoVF", sans-serif;
+  --fonte-tamanho-grd: 8rem;
+  --fonte-tamanho-med: 3rem;
+  --fonte-tamanho-base: 1.2rem;
+  --fonte-tamanho-pqn: 1rem;
+  --cor-principal: #d2691e;
+  --cor-secundaria: #f0f0f0;
+  --cor-base:#fffafa;
+  --espaco-pqn: 1rem;
+  --espaco-med: 2rem;
+  --espaco-grd: 6rem; }
+
+body {
+  background-color: var(--cor-base);
+  color: var(--cor-principal);
+  font-family: var(--fonte-principal);
+  padding: var(--espaco-med);
+  line-height: 1.5em;
+  font-size: var(--fonte-tamanho-base); }
+
+h1 {
+  font-family: var(--fonte-destaque);
+  font-size: var(--fonte-tamanho-med);
+  line-height: 1em;
+  text-transform: uppercase;
+  margin: var(--espaco-grd) 0; }
+  h1:first-child {
+    margin-top: 0; }
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: var(--espaco-grd); }
+
+p {
+  margin-top: 0; }
+
+hr {
+  border: 1px solid var(--cor-principal);
+  margin: 0;
+  margin-bottom: var(--espaco-grd);
+  display: block; }
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%; }
+
+a:link,
+a:visited {
+  color: var(--cor-principal); }
+
+ul strong {
+  text-transform: uppercase; }
+
+ul li {
+  margin-bottom: var(--espaco-pqn); }
+
+figure {
+  margin: var(--espaco-med) 0; }
+  figure img, figure iframe {
+    border: 1px solid; }
+  figure figcaption {
+    font-size: var(--fonte-tamanho-pqn);
+    margin-top: 0.5em;
+    line-height: 1.2em;
+    text-align: center; }
+
+blockquote {
+  margin: var(--espaco-med) 0 var(--espaco-med) var(--espaco-grd); }
+  blockquote p {
+    text-align: justify; }
+
+/* Cabeçalho
+=============================================== */
+header {
+  margin-bottom: var(--espaco-grd); }
+  header h1 {
+    text-transform: uppercase;
+    line-height: 0.89em;
+    hyphens: auto; }
+
+/* Indice
+=============================================== */
+.indice {
+  list-style: none;
+  margin: 0 0 var(--espaco-grd) 0;
+  padding: 0;
+  text-align: center; }
+  @media screen and (min-width: 62rem) {
+    .indice {
+      position: sticky;
+      top: var(--espaco-med); } }
+/* Conteúdo
+=============================================== */
+@media screen and (min-width: 62rem) {
+  .conteiner-conteudo {
+    display: flex;
+    justify-content: space-between; }
+    .conteiner-conteudo .conteudo {
+      width: 60%;
+      max-width: 70ch;
+      padding-right: var(--espaco-med);
+      margin-bottom: var(--espaco-grd); } }
+
+/* Inputs
+=============================================== */
+.botao {
+  border: 1px solid;
+  border-radius: 1em;
+  padding: 0 0.5em;
+  background-color: var(--cor-secundaria);
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block; }
+  .botao.cheio {
+    width: 100%; }
+
+.botao:hover {
+  background-color: var(--cor-principal);
+  color: var(--cor-secundaria); }

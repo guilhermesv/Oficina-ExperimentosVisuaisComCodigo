@@ -1,0 +1,5 @@
+<figure>
+  <img alt='{{ .Get "alt" }}' src='{{ absURL "images/"}}{{ .Get "src" }}'>
+  <figcaption>{{ .Get "legenda" | safeHTML}}</figcaption>
+</figure>
+

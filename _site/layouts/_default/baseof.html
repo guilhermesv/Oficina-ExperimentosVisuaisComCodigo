@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  {{ partial "head.html" . }}
+
+<body>
+  
+  <div class="pagina {{ .Slug }}">
+
+  {{ partial "cabecalho.html" . }}
+  
+  <div class="conteiner-conteudo">
+
+    {{ block "main" .}} {{ end }}
+
+    {{ partial "indice.html" . }}
+
+  </div>
+
+  <hr>
+
+  {{ partial "rodape.html" }}
+
+  </div>
+ </body>
+</html>

@@ -1,0 +1,8 @@
+<header>
+  <h1>Expe&shy;rimen&shy;tos Visuais com Código: <br>{{ .Title }}</h1>
+  {{ if .Params.capa }}
+    <img src='{{ absURL "/images/"}}{{ .Params.capa }}' alt="" class="capa">
+  {{ end }}
+
+  </header>
+<hr>
