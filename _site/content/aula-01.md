@@ -86,17 +86,16 @@ A seguir uma seleção de trabalhos criados com código no NodeBox 3, software q
 
 ### Formas
 
-Experimento explorando composições usando três formas primitivas:  circulo, quadrado e triângulo. Para cada forma foram feitas 4 animações diferentes, sendo que cada uma delas possui 4 variações de cor e proporção do módulo.
-
 {{< vimeo src="https://player.vimeo.com/video/241052817?byline=0" legenda="Vídeo do projeto Formas, experimento visual de animação com formas geométricas básicas.">}}
+
+Experimento explorando composições usando três formas primitivas:  circulo, quadrado e triângulo. Para cada forma foram feitas 4 animações diferentes, sendo que cada uma delas possui 4 variações de cor e proporção do módulo.
 
 {{< botao texto="Mais informações aqui" href="https://www.behance.net/gallery/58421461/FORMAS">}}
 
+
+
+
 ### DiaTipo São Paulo 2018
-
-Identidade desenvolvida pelo [Daó](https://estudiodao.com) junto com a [Deia Kulpas](http://www.andreakulpas.com) para o 10º ano do DiaTipo SP, um encontro de Tipografia sem fins lucrativos. A identidade baseou-se em um padrão gerado a partir de fontes criadas por designers brasileiros, a fim de apresentar o conceito do DiaTipo: um evento construído ao longo de 10 anos por tipógrafos que cresceram junto com o evento.
-
-{{< botao texto="Mais informações aqui" href="ttps://www.behance.net/gallery/83219303/DiaTipo-Sao-Paulo-2018">}}
 
 {{< figura 
   src="Aula01-Diatipo.gif"
@@ -104,6 +103,9 @@ Identidade desenvolvida pelo [Daó](https://estudiodao.com) junto com a [Deia Ku
   legenda="Identidade visual para o DiaTipo São Paulo. Fonte: <a href='https://www.behance.net/gallery/83219303/DiaTipo-Sao-Paulo-2018'>Daó + Deia Kulpas</a>" 
 >}}
 
+Identidade desenvolvida pelo [Daó](https://estudiodao.com) junto com a [Deia Kulpas](http://www.andreakulpas.com) para o 10º ano do DiaTipo SP, um encontro de Tipografia sem fins lucrativos. A identidade baseou-se em um padrão gerado a partir de fontes criadas por designers brasileiros, a fim de apresentar o conceito do DiaTipo: um evento construído ao longo de 10 anos por tipógrafos que cresceram junto com o evento.
+
+{{< botao texto="Mais informações aqui" href="ttps://www.behance.net/gallery/83219303/DiaTipo-Sao-Paulo-2018">}}
 
 ### Algum de visualização de dados
 
@@ -128,7 +130,7 @@ Composições que acompanharam o lançamento da nova identidade visual da Vosso.
 
 # Nodebox 3
 
- 
+inserir imagem do nodebox
 
 <figure>
   <img alt="Tela do aplicativo Nodebox rodando uma arte generativa" src="{{ site.url }}/aula-01/Nodebox.png">
@@ -139,7 +141,8 @@ Composições que acompanharam o lançamento da nova identidade visual da Vosso.
 
 Arquivos criados durante ou para demonstração nas aulas práticas.
 
-<a target="_blank" rel="noopener noreferrer" class="btn" href="https://guilhermesv.github.io/DownGit/#/home?url=https://github.com/guilhermesv/DesenhandoComCodigo-Grafatorio/tree/master/Aula-01-Demonstracoes">Acessar download dos arquivos</a>
+
+{{< botao target="_blank" href="https://guilhermesv.github.io/DownGit/#/home?url=https://github.com/guilhermesv/DesenhandoComCodigo-Grafatorio/tree/master/Aula-01-Demonstracoes" texto="Acessar download dos arquivos">}}
 
 # Exercícios
 

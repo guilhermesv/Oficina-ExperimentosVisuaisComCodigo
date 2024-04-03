@@ -3,17 +3,28 @@
 
   {{ partial "head.html" . }}
 
-<body>
+  {{ if .IsHome }}
+  <style>
+    :root {
+      --cor-principal: #fffafa;
+      --cor-secundaria: #d2691e;
+      --cor-base:#d2691e;
+    }
+  </style>
+
+  {{ end }}
+
+<body class="{{ .Slug }}">
   
-  <div class="pagina {{ .Slug }}">
+  <div class="pagina ">
 
   {{ partial "cabecalho.html" . }}
   
   <div class="conteiner-conteudo">
 
-    {{ block "main" .}} {{ end }}
-
     {{ partial "indice.html" . }}
+
+    {{ block "main" .}} {{ end }}
 
   </div>
 

@@ -16,7 +16,7 @@ Voltada para quem nunca teve contato com programação, durante 3 encontros teó
 
 ## Sobre mim
 
-Meu nome é Guilherme Vieira,  opero, copio e crio ferramentas analógicas e computacionais para sintetização de imagens. Produzo artefatos impressos e outras coisas com a [Trinca](https://trinca.net) e designer no estúdio [Daó](https://www.estudiodao.com) – o contrário também é válido.
+Meu nome é Guilherme Vieira,  opero, copio e crio ferramentas analógicas e computacionais para sintetização de imagens. Produzo artefatos impressos e outras coisas com a [Trinca](https://trinca.net) e sou designer no estúdio [Daó](https://www.estudiodao.com) – o contrário também é válido.
 
 ## Ambiente da documentação
 

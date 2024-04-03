@@ -5,5 +5,7 @@
   <link rel="stylesheet" href="{{ `css/normalize.css` | absURL }}">
   {{ $sass := resources.Get "sass/main.scss" }}
   {{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}" > 
+  <link rel="stylesheet" href="{{ $style.Permalink }}" >
+  {{ $js := resources.Get "js/main.js" | resources.Fingerprint }}
+  <script defer src="{{ $js.Permalink }}"></script>
 </head>

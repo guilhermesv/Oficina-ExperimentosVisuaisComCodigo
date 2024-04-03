@@ -1,5 +1,9 @@
 <header>
-  <h1><a href='{{ absURL ""}}'>Expe&shy;rimen&shy;tos Visuais com Código</a>:<br><span>{{ .Title }}</span></h1>
+  {{ if .IsHome }}
+    <h1><a href='{{ absURL ""}}'>Expe&shy;rimen&shy;tos Visuais com Código</a></h1>
+  {{ else }}
+    <h1><a href='{{ absURL ""}}'>Expe&shy;rimen&shy;tos Visuais com Código</a>:<br><span>{{ .Title }}</span></h1>
+  {{ end }}
   {{ if .Params.capa }}
     <img src='{{ absURL "/images/"}}{{ .Params.capa }}' alt="" class="capa">
   {{ end }}
