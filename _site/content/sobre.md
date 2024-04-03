@@ -16,8 +16,8 @@ Voltada para quem nunca teve contato com programação, durante 3 encontros teó
 
 ## Sobre mim
 
-Meu nome é Guilherme Vieira,  opero, copio e crio ferramentas analógicas e computacionais para sintetização de imagens. Produzo artefatos impressos e outras com a [Trinca](https://trinca.net) e designer no estúdio [Daó](https://www.estudiodao.com) – o contrário também é válido.
+Meu nome é Guilherme Vieira,  opero, copio e crio ferramentas analógicas e computacionais para sintetização de imagens. Produzo artefatos impressos e outras coisas com a [Trinca](https://trinca.net) e designer no estúdio [Daó](https://www.estudiodao.com) – o contrário também é válido.
 
 ## Ambiente da documentação
 
-Todo esse site é hospedado e compilado pelo [GitHub Pages](https://pages.github.com/) utilizando [Hugo](https://gohugo.io/) utilizando as fontes [5by7 de Peter Wiegel](http://www.peter-wiegel.de/5by7.html) e [Azeret da Display TypeFoundry](https://azeret.displaay.net/).
+Todo esse site é hospedado e compilado pelo [GitHub Pages](https://pages.github.com/) utilizando [Hugo](https://gohugo.io/). Os textos são compostos com as fontes [5by7 de Peter Wiegel](http://www.peter-wiegel.de/5by7.html) e [Geist da Vercel](https://vercel.com/font).
