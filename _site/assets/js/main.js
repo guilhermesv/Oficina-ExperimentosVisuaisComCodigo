@@ -17,6 +17,11 @@
   const indice = document.querySelector('.indice');
   botao_menu.addEventListener('click', function() {
     indice.classList.toggle( 'aberto');
+    if( indice.classList.contains('aberto')) {
+      botao_menu.innerText = "Fechar";
+    } else {
+      botao_menu.innerText = "Menu";
+    }
   })
-  console.log(botao_menu);
 })();
+

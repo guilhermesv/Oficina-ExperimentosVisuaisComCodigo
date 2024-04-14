@@ -24,8 +24,8 @@
   --espaco-pqn: 1rem;
   --espaco-med: 2rem;
   --espaco-grd: 3rem;
-  --cor-principal: #d2691e;
-  --cor-secundaria: #fffafa;
+  --cor-principal: #11a745;
+  --cor-secundaria: #e6d9dc;
   --gradienta-A: hsl(243, 83%, 79%);
   --gradienta-B: hsl(313, 64%, 84%); }
 
@@ -51,11 +51,11 @@ h1 {
   font-size: var(--fonte-tamanho-med);
   line-height: 1em;
   text-transform: uppercase;
-  margin: var(--espaco-grd) 0; }
+  margin: var(--espaco-grd) 0;
+  word-wrap: normal; }
   h1:first-child {
     margin-top: 0; }
   h1 a:link, h1 a:visited, h1 span {
-    word-wrap: normal;
     border: 1px solid;
     border-radius: 1em;
     padding: 0.1em 0.5em;
@@ -90,6 +90,10 @@ img {
   width: 100%;
   max-width: 100%; }
 
+video {
+  width: 100%;
+  max-width: 100%; }
+
 a:link,
 a:visited {
   color: var(--cor-principal); }
@@ -119,6 +123,12 @@ blockquote {
     border-radius: 1em;
     border: 1px solid; }
 
+.comentario {
+  border-radius: 1em;
+  background-color: lightcoral;
+  padding: 1em;
+  color: white; }
+
 /* Página
 =============================================== */
 .pagina {
@@ -138,6 +148,8 @@ header {
     text-transform: uppercase;
     line-height: 0.89em;
     hyphens: auto; }
+  header .capa {
+    border: 1px solid; }
 
 /* Indice
 =============================================== */
@@ -154,7 +166,10 @@ header {
   padding: 0;
   text-align: center;
   max-height: 0;
-  overflow: hidden; }
+  overflow: hidden;
+  transition: all ease-in-out; }
+  .indice li {
+    margin-bottom: 0; }
   .indice.aberto {
     max-height: 100%; }
   @media screen and (min-width: 62rem) {
@@ -168,6 +183,9 @@ header {
 
 /* Conteúdo
 =============================================== */
+.conteiner-conteudo {
+  margin-bottom: var(--espaco-grd); }
+
 @media screen and (min-width: 62rem) {
   .conteiner-conteudo {
     display: flex;
@@ -188,7 +206,8 @@ header {
   background-color: var(--cor-secundaria);
   text-decoration: none;
   text-transform: uppercase;
-  display: inline-block; }
+  display: inline-block;
+  margin-bottom: var(--espaco-pqn); }
   .botao.cheio {
     width: 100%; }
 
@@ -198,3 +217,12 @@ header {
 
 /* Home
 =============================================== */
+:root .inicio {
+  --cor-principal: #e6d9dc;
+  --cor-secundaria: #148e3e;
+  --cor-base:#148e3e; }
+
+.inicio h1 a {
+  font-size: 9rem;
+  text-align: justify;
+  line-height: 1em; }

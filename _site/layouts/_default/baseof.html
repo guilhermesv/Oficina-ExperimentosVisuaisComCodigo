@@ -3,17 +3,6 @@
 
   {{ partial "head.html" . }}
 
-  {{ if .IsHome }}
-  <style>
-    :root {
-      --cor-principal: #fffafa;
-      --cor-secundaria: #d2691e;
-      --cor-base:#d2691e;
-    }
-  </style>
-
-  {{ end }}
-
 <body class="{{ .Slug }}">
   
   <div class="pagina ">

@@ -1,12 +1,17 @@
 <header>
   {{ if .IsHome }}
-    <h1><a href='{{ absURL ""}}'>Expe&shy;rimen&shy;tos Visuais com Código</a></h1>
+    <h1><a href='{{ absURL ""}}'>Ex&shy;pe&shy;ri&shy;men&shy;tos Visuais com Código</a></h1>
+    <video  muted loop autoplay class="capa">
+      <source src='{{ absURL "images/"}}Home-Capa.mp4' type="video/mp4" >
+      Your browser does not support the video tag.
+    </video> 
   {{ else }}
     <h1><a href='{{ absURL ""}}'>Expe&shy;rimen&shy;tos Visuais com Código</a>:<br><span>{{ .Title }}</span></h1>
+    {{ if .Params.capa }}
+    <img src='{{ absURL "images/"}}{{ .Params.capa }}' alt="" class="capa">
+    {{ end }}
   {{ end }}
-  {{ if .Params.capa }}
-    <img src='{{ absURL "/images/"}}{{ .Params.capa }}' alt="" class="capa">
-  {{ end }}
+  
 
   </header>
 <hr>

@@ -1,9 +1,9 @@
 +++
 title = 'Introdução a programação visual'
 date = 2024-04-02T17:36:42-03:00
-draft = true
+draft = false
 slug = 'aula-01'
-capa = ''
+capa = 'Aula01-Capa.jpg'
 +++
 
 # Conceitos
@@ -15,6 +15,14 @@ capa = ''
 - Racionalização do processo criativo
 - Geração de possibilidades
 - Expandir o espaço das ideias
+
+{{< figura 
+  src="Aula01-Diagrama-EspaçoDasIdeias.png" 
+
+  alt="Diagrama ilustrando a ideeia de espaço da ideias: o fundo é preenchido de um laranja que esmaece ao chegar nas bordas do diagrama, nesse fundo o texto Espaço das Ideias está escrito em branco, no meio desse fundo um círculo com cortorno branco escrito espaço das ferramentas em sua borda. 3 ideas síbomlizadas como um ponto estão situadas no diagrama: a executável dentro do espaço das ferramentas, uma na borda do espaço das ferramentas chamada adaptável e uma outra bem distante do espaço das ferremntas a ideeia impossível." 
+
+  legenda="Interpretação pessoal do diagrama proposto por Erik Van Blokland. Ideias executaveis: aquelas que no espaço das ferramentas que dominamos. Ideias adaptaveis: está fora mais próxima, conseguimos mudar um pouco para realiza-la. Ideias impossíveis: estão fora e muito longe do espaço da ferramentas, nesse  a programação pode ser uma forma de alcança-la. Fonte <a href='https://youtu.be/0l5snZXafIs?t=176'>DiaTipo SP 2013 - Erik van Blokland</a>." 
+>}}
 
 ## 2. Programar é sobre se comunicar
 
@@ -92,9 +100,6 @@ Experimento explorando composições usando três formas primitivas:  circulo, q
 
 {{< botao texto="Mais informações aqui" href="https://www.behance.net/gallery/58421461/FORMAS">}}
 
-
-
-
 ### DiaTipo São Paulo 2018
 
 {{< figura 
@@ -107,40 +112,47 @@ Identidade desenvolvida pelo [Daó](https://estudiodao.com) junto com a [Deia Ku
 
 {{< botao texto="Mais informações aqui" href="ttps://www.behance.net/gallery/83219303/DiaTipo-Sao-Paulo-2018">}}
 
-### Algum de visualização de dados
+### Nicholas Rougeux
 
-Identidade visual para a empresa de business design Beyond, consultoria que cria e desenvolve ideias e serviços para negócios novos ou já consolidados.
+Nicholas Rougeux é designer e artista de dados, em seu trabalho explora as possibilidades de visualizar dados gráficamente.
 
-### Algum da Segyo
+{{< figura 
+  src="Aula01-c82.jpg"
+  alt="Cartaz dos dados diário do vento e temperatura durante um ano nas cidades mais populosas de cada estado dos Estados Unidos da América. O cartaz apresenta um fundo azul escuro, o título Weather Portrais 2021 U.S. Cities, uma série de mini diagramas sobre a tempeetura em diversas cidades do E.U.A. e ao fim uma legenda explicativa do material. "
+  legenda="Cartaz dos dados diário do vento e temperatura durante um ano nas cidades mais populosas de cada estado dos Estados Unidos da América. Fonte: <a href='https://www.c82.net/blog/?id=71'>Nicholas Rougeux</a>." 
+>}}
 
-Composições que acompanharam o lançamento da nova identidade visual da Vosso. O trabalho é uma reinterpretação da idéia de retícula utilizada nos meios de impressão.
+{{< botao texto="Mais informações aqui" href="https://www.c82.net/blog/?id=71">}}
 
-<a target="_blank" rel="noopener noreferrer" class="btn small" href="http://www.estudiodao.com/trabalhos/vosso/">mais informações aqui</a>
+### Seohyo
 
+Seohyo é uma artista Sul Coreana que trabalha com arte gerativa, seu trabalho atualmente se manifesta principalmente na criação de animações em loop para apresentar em espaços digitais ou em instalações.
 
-<div class="galeria">
-  <figure><img alt="Composições para os produtos promocionais da Vosso" src="{{ site.url }}/aula-01/Vosso-01.svg"></figure>
-  <figure><img alt="Composições para os produtos promocionais da Vosso" src="{{ site.url }}/aula-01/Vosso-02.svg"></figure>
-  <figure><img alt="Composições para os produtos promocionais da Vosso" src="{{ site.url }}/aula-01/Vosso-03.svg"></figure>
-  <figure><img alt="Composições para os produtos promocionais da Vosso" src="{{ site.url }}/aula-01/Vosso-04.svg"></figure>
-  <figcaption>Composições para os produtos promocionais da Vosso. Fonte: <a href="http://www.estudiodao.com/trabalhos/vosso/">Daó</a></figcaption>
-</div>
+{{< botao texto="Mais informações aqui" href="https://www.instagram.com/seohyo/">}}
 
----
+{{< video src="Aula01-Artista-Seohyo-01.mp4" legenda="Uma imagem é redesenhada continuamente em uma grade preenchida com linhas horizontais, verticais e diagonais.">}}
 
-# Nodebox 3
+# Programação Visual e Nodebox 3 
 
-inserir imagem do nodebox
+Quando falamos em programação logo imaginos uma tela cheia de códigos escritos, porém essa não é a única maneira de programar. Algumas linguagens trabalham com a programação visual, onde através de uma interface você conecta funções e valores criando o código visualmente.
 
-<figure>
-  <img alt="Tela do aplicativo Nodebox rodando uma arte generativa" src="{{ site.url }}/aula-01/Nodebox.png">
-  <figcaption>Tela do aplicativo Nodebox rodando uma arte generativa. Fonte: <a href="http://nodebox.net">Nodebox</a></figcaption>
-</figure>
+{{< figura 
+  src="Aula01-Blender.jpg"
+  alt="Tela do prrograma Blender 3d, no lado esquerdo um esquema de nós que são pequenas caixas com entradas e saídas conectadas umas as outras e a direita o resultado do código, um emaranhado de linhas curvas em 3D."
+  legenda="Interface de programação com nós do Geometry Nodes no prrograma Blender 3d." 
+>}}
 
-# Demonstrações
+Nesta oficina utilizaremos o Nodebox  que é um aplicativo que permite por meio da programação visual baseada em um sistema de nós criar peças de design generativo, animação e visualização de dados em uma interface simples e amigável.
+
+{{< figura 
+  src="Aula01-Nodebox.png"
+  alt="Tela do prrograma Blender 3d, no lado esquerdo um esquema de nós que são pequenas caixas com entradas e saídas conectadas umas as outras e a direita o resultado do código, um emaranhado de linhas curvas em 3D."
+  legenda="Tela do aplicativo Nodebox rodando uma arte generativa. A esquerda a arte e a direita inferior o sistema de nós com o código.Fonte: <a href='http://nodebox.net'>Nodebox</a>" 
+>}}
+
+# Demons&shy;tra&shy;ções
 
 Arquivos criados durante ou para demonstração nas aulas práticas.
-
 
 {{< botao target="_blank" href="https://guilhermesv.github.io/DownGit/#/home?url=https://github.com/guilhermesv/DesenhandoComCodigo-Grafatorio/tree/master/Aula-01-Demonstracoes" texto="Acessar download dos arquivos">}}
 
@@ -182,7 +194,7 @@ Recriar algo similar ao resultado abaixo com parametrização do número de colu
 
 Todas as sugestões de resoluções dos exercícios e desafio podem ser baixadas no link abaixo:
 
-<a target="_blank" rel="noopener noreferrer" class="btn" href="https://guilhermesv.github.io/DownGit/#/home?url=https://github.com/guilhermesv/DesenhandoComCodigo-Grafatorio/tree/master/Aula-01-Exercicios">Acessar download dos arquivos</a>
+{{< downgit texto="Acessar download dos arquivos" href="https://github.com/guilhermesv/DesenhandoComCodigo-Grafatorio/tree/master/Aula-01-Exercicios" >}}
 
 
 Dúvidas, de como baixar o arquivo do GitHub? [Clique aqui](https://guilhermesv.github.io/DesenhandoComCodigo-Grafatorio/faq)
