@@ -154,7 +154,7 @@ Nesta oficina utilizaremos o Nodebox  que é um aplicativo que permite por meio 
 
 Arquivos criados durante ou para demonstração nas aulas práticas.
 
-{{< botao target="_blank" href="https://guilhermesv.github.io/DownGit/#/home?url=https://github.com/guilhermesv/DesenhandoComCodigo-Grafatorio/tree/master/Aula-01-Demonstracoes" texto="Acessar download dos arquivos">}}
+{{< downgit target="_blank" href="https://github.com/guilhermesv/Oficina-ExperimentosVisuaisComCodigo/tree/main/Aula-01-Demonstracoes" texto="Acessar download dos arquivos">}}
 
 # Exercícios
 
@@ -192,8 +192,8 @@ Recriar algo similar ao resultado abaixo com parametrização do número de colu
 
 Todas as sugestões de resoluções dos exercícios e desafio podem ser baixadas no link abaixo:
 
-{{< downgit texto="Acessar download dos arquivos" href="https://github.com/guilhermesv/DesenhandoComCodigo-Grafatorio/tree/master/Aula-01-Exercicios" >}}
+{{< downgit target="_blank" href="https://github.com/guilhermesv/Oficina-ExperimentosVisuaisComCodigo/tree/main/Aula-01-Exercicios" texto="Acessar download dos arquivos">}}
 
 
-Dúvidas, de como baixar o arquivo do GitHub? [Clique aqui](https://guilhermesv.github.io/DesenhandoComCodigo-Grafatorio/faq)
+Dúvidas, de como baixar o arquivo do GitHub? [Clique aqui](https://etc.guilhermevieira.info/oficina/evcc-v01/faq)
 
