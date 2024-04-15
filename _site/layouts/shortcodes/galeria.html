@@ -1,0 +1,10 @@
+{{ $srcs := .Get "src" }}
+{{ $srcs = split $srcs "," }}
+{{ $alt := .Get "alt" }}
+
+<figure class="galeria">
+  {{ range $srcs }}
+  <img alt='{{ $alt }}' src='{{ absURL "images/"}}{{ . }}'>
+  {{ end }}
+  <figcaption>{{ .Get "legenda" | safeHTML}}</figcaption>
+</figure>
