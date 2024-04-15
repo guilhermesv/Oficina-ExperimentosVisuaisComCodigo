@@ -134,7 +134,7 @@ Seohyo é uma artista Sul Coreana que trabalha com arte gerativa, seu trabalho a
 
 # Programação Visual e Nodebox 3 
 
-Quando falamos em programação logo imaginos uma tela cheia de códigos escritos, porém essa não é a única maneira de programar. Algumas linguagens trabalham com a programação visual, onde através de uma interface você conecta funções e valores criando o código visualmente.
+Quando falamos em programação logo imaginamos uma tela cheia de códigos escritos, porém essa não é a única maneira de programar. Algumas linguagens trabalham com a programação visual, onde através de uma interface você conecta funções e valores criando o código visualmente.
 
 {{< figura 
   src="Aula01-Blender.jpg"
@@ -142,7 +142,7 @@ Quando falamos em programação logo imaginos uma tela cheia de códigos escrito
   legenda="Interface de programação com nós do Geometry Nodes no prrograma Blender 3d." 
 >}}
 
-Nesta oficina utilizaremos o Nodebox  que é um aplicativo que permite por meio da programação visual baseada em um sistema de nós criar peças de design generativo, animação e visualização de dados em uma interface simples e amigável.
+Nesta oficina utilizaremos o Nodebox  que é um aplicativo que permite por meio da programação visual baseada em um sistema de nós criar peças de design gerativo, animação e visualização de dados em uma interface simples e amigável.
 
 {{< figura 
   src="Aula01-Nodebox.png"
@@ -176,19 +176,17 @@ Criar uma composição livre utilizando as transformações e o nó copy.
 
 Recriar algo similar ao resultado abaixo com parametrização do número de colunas e linhas, ou seja ao mudar a quantidade de colunas ou linhas, o padrão deve se ajustar automaticamente:
 
-<div class="galeria">
-<figure><img alt="Composições para os produtos promocionais da Vosso" src="{{ site.url }}/aula-01/Aula01-Desafio-01.png"></figure>
-<figure><img alt="Composições para os produtos promocionais da Vosso" src="{{ site.url }}/aula-01/Aula01-Desafio-02.png"></figure>
-<figure><img alt="Composições para os produtos promocionais da Vosso" src="{{ site.url }}/aula-01/Aula01-Desafio-03.png"></figure>
-<figure><img alt="Composições para os produtos promocionais da Vosso" src="{{ site.url }}/aula-01/Aula01-Desafio-04.png"></figure>
-</div>
+{{< galeria
+  src="Aula01-Desafio-01.png,Aula01-Desafio-02.png,Aula01-Desafio-03.png,Aula01-Desafio-04.png"
+  alt="Padronagem que lembra bandeirinhas de festa junina, retangulares com a base triangular. As cores variam de vermelho, verde, bege, verde, azul e rosa."
+>}}
 
 
-## Dicas
+#### Dicas
 
-- Não se preocupe com a aplicação das cores, elas podem variar de acordo com a lógica que você seguir
-- Você vai precisar dos nós de matemática para fazer algumas divisões e subtrações
-- O nó Fit pode ajudar a definir o tamanho dos módulos
+- Não se preocupe com a aplicação das cores, elas podem variar de acordo com a lógica que você seguir;
+- Você vai precisar dos nós de matemática para fazer algumas divisões e subtrações;
+- O nó Fit pode ajudar a definir o tamanho dos módulos.
 
 # Resolução dos exercícios
 
