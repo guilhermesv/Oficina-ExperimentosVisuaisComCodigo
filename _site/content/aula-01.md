@@ -17,9 +17,9 @@ capa = 'Aula01-Capa.jpg'
 - Expandir o espaço das ideias
 
 {{< figura 
-  src="Aula01-Diagrama-EspaçoDasIdeias.png" 
+  src="Aula01-Diagrama-EspacoDasIdeias.png" 
 
-  alt="Diagrama ilustrando a ideeia de espaço da ideias: o fundo é preenchido de um laranja que esmaece ao chegar nas bordas do diagrama, nesse fundo o texto Espaço das Ideias está escrito em branco, no meio desse fundo um círculo com cortorno branco escrito espaço das ferramentas em sua borda. 3 ideas síbomlizadas como um ponto estão situadas no diagrama: a executável dentro do espaço das ferramentas, uma na borda do espaço das ferramentas chamada adaptável e uma outra bem distante do espaço das ferremntas a ideeia impossível." 
+  alt="Diagrama ilustrando a ideia de espaço da ideias: o fundo é preenchido de um laranja que esmaece ao chegar nas bordas do diagrama, nesse fundo o texto Espaço das Ideias está escrito em branco, no meio desse fundo um círculo com cortorno branco escrito espaço das ferramentas em sua borda. 3 ideas síbomlizadas como um ponto estão situadas no diagrama: a executável dentro do espaço das ferramentas, uma na borda do espaço das ferramentas chamada adaptável e uma outra bem distante do espaço das ferremntas a ideia impossível." 
 
   legenda="Interpretação pessoal do diagrama proposto por Erik Van Blokland. Ideias executaveis: aquelas que no espaço das ferramentas que dominamos. Ideias adaptaveis: está fora mais próxima, conseguimos mudar um pouco para realiza-la. Ideias impossíveis: estão fora e muito longe do espaço da ferramentas, nesse  a programação pode ser uma forma de alcança-la. Fonte <a href='https://youtu.be/0l5snZXafIs?t=176'>DiaTipo SP 2013 - Erik van Blokland</a>." 
 >}}
@@ -118,7 +118,7 @@ Nicholas Rougeux é designer e artista de dados, em seu trabalho explora as poss
 
 {{< figura 
   src="Aula01-c82.jpg"
-  alt="Cartaz dos dados diário do vento e temperatura durante um ano nas cidades mais populosas de cada estado dos Estados Unidos da América. O cartaz apresenta um fundo azul escuro, o título Weather Portrais 2021 U.S. Cities, uma série de mini diagramas sobre a tempeetura em diversas cidades do E.U.A. e ao fim uma legenda explicativa do material. "
+  alt="Cartaz dos dados diário do vento e temperatura durante um ano nas cidades mais populosas de cada estado dos Estados Unidos da América. O cartaz apresenta um fundo azul escuro, o título Weather Portrais 2021 U.S. Cities, uma série de mini diagramas sobre a temperatura em diversas cidades do E.U.A. e ao fim uma legenda explicativa do material. "
   legenda="Cartaz dos dados diário do vento e temperatura durante um ano nas cidades mais populosas de cada estado dos Estados Unidos da América. Fonte: <a href='https://www.c82.net/blog/?id=71'>Nicholas Rougeux</a>." 
 >}}
 
@@ -147,7 +147,7 @@ Nesta oficina utilizaremos o Nodebox  que é um aplicativo que permite por meio 
 {{< figura 
   src="Aula01-Nodebox.png"
   alt="Tela do prrograma Blender 3d, no lado esquerdo um esquema de nós que são pequenas caixas com entradas e saídas conectadas umas as outras e a direita o resultado do código, um emaranhado de linhas curvas em 3D."
-  legenda="Tela do aplicativo Nodebox rodando uma arte generativa. A esquerda a arte e a direita inferior o sistema de nós com o código.Fonte: <a href='http://nodebox.net'>Nodebox</a>" 
+  legenda="Tela do aplicativo Nodebox rodando uma arte generativa. A esquerda a arte e a direita inferior o sistema de nós com o código. Fonte: <a href='http://nodebox.net'>Nodebox</a>." 
 >}}
 
 # Demons&shy;tra&shy;ções
@@ -196,4 +196,3 @@ Todas as sugestões de resoluções dos exercícios e desafio podem ser baixadas
 
 
 Dúvidas, de como baixar o arquivo do GitHub? [Clique aqui](https://etc.guilhermevieira.info/oficina/evcc-v01/faq)
-

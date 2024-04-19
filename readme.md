@@ -1,0 +1,1 @@
+Repositório com material didático da oficina Experimentos visuais com código ministrada no FILE 2024.

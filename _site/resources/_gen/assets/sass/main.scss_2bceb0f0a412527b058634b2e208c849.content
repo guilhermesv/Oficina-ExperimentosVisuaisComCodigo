@@ -123,6 +123,11 @@ blockquote {
     border-radius: 1em;
     border: 1px solid; }
 
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: var(--espaco-pqn); }
+
 .comentario {
   border-radius: 1em;
   background-color: lightcoral;
@@ -147,7 +152,8 @@ header {
   header h1 {
     text-transform: uppercase;
     line-height: 0.89em;
-    hyphens: auto; }
+    hyphens: auto;
+    margin-bottom: var(--espaco-med); }
   header .capa {
     border: 1px solid; }
 
