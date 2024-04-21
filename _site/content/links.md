@@ -1,11 +1,11 @@
-+++
-title = 'Links'
-date = 2024-04-16T18:17:52-03:00
-draft = false
-slug = ''
-capa = ''
-capa_alt = ''
-+++
+---
+title: "Links"
+date: 2024-04-16T18:17:52-03:00
+draft: false
+slug: "links"
+capa: ""
+capa-alt: ""
+---
 
 Separei nessa página todos os links de referências apresentados durante as aulas e outros que são interessantes.
 
@@ -49,6 +49,9 @@ A classificação é bem genérica e muitos links poderiam caber em mais de uma 
 - [Rafa Diniz](https://www.instagram.com/rafaddiniz/)
 - [Zach Lieberman](https://www.instagram.com/zach.lieberman/)
 - [Vamoss](https://openprocessing.org/user/65884?view=sketches&o=48)
+- [João Generoso](https://joaogeneroso.com/pt-br/)
+- [Marie Malarme](https://link-in-bio.studiodev.xyz/)
+- [Marina Cardoso](https://marinacardoso.net/)
 
 
 ## Artistas ou projetos com foco em animação
@@ -65,6 +68,13 @@ A classificação é bem genérica e muitos links poderiam caber em mais de uma 
 - [What I learned from the $2,000 elusive design book “Designing Programmes”](https://medium.com/svilenk/what-i-learned-from-the-2-000-elusive-design-book-designing-programmes-f518faefcf4b)
 - [Design  Gráfico  Computacional — DrawBot  como  ferramenta  de  produção visual, Marck Al](https://files.cercomp.ufg.br/weby/up/777/o/18_drawbot.pdf)
 - [Taxonomia de temas para o ensino de programação em contexto visual](https://abav.lugaralgum.com/mestrado/)
+
+## Outros lugares para aprender arte com código
+- [Processing Brasil](https://youtube.com/processing-brasil)
+- [O código transcendente](https://codigotranscendente.github.io/livro/index.html)
+- [The Coding Train](https://thecodingtrain.com/)
+- [Tim Rodenbroeker](https://timrodenbroeker.de/)
+- [Grupo Programação Criativa no Telegram](https://t.me/programacaocriativa)
 
 ## Outras ferramentas para programação criativa
 

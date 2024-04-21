@@ -1,11 +1,11 @@
-+++
-title = 'Faq'
-date = 2024-04-16T17:58:38-03:00
-draft = false
-slug = ''
-capa = ''
-capa_alt = ''
-+++
+---
+title: "FAQ"
+date: 2024-04-16T17:58:38-03:00
+draft: false
+slug: "faq"
+capa: ""
+capa-alt: ""
+---
 
 ## Onde baixar o NodeBox 3? 
 
