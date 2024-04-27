@@ -1,17 +1,31 @@
+{{ $capa := .Params.capa }}
+{{ $capa_ext := split $capa "."}}
+{{ $capa_ext = index $capa_ext 1 }}
+
 <header>
   {{ if .IsHome }}
     <h1><a href='{{ absURL ""}}'>Ex&shy;pe&shy;ri&shy;men&shy;tos Visuais com Código</a></h1>
-    <video  muted loop autoplay class="capa">
+    <video muted loop autoplay class="capa">
       <source src='{{ absURL "images/"}}Home-Capa.mp4' type="video/mp4" >
       Your browser does not support the video tag.
     </video> 
   {{ else }}
     <h1><a href='{{ absURL ""}}'>Expe&shy;rimen&shy;tos Visuais com Código</a>: <span>{{ .Title }}</span></h1>
+
     {{ if .Params.capa }}
-    <img src='{{ absURL "images/"}}{{ .Params.capa }}' alt="" class="capa">
+
+      {{ if eq $capa_ext "mp4" }}
+      <video muted loop autoplay class="capa">
+        <source src='{{ absURL "images/"}}{{ .Params.capa }}' type="video/mp4" >
+        Your browser does not support the video tag.
+      </video>
+      {{ else if .Params.capa }}
+      <img src='{{ absURL "images/"}}{{ .Params.capa }}' alt="" class="capa">
+      {{ end }}
+
     {{ end }}
+
   {{ end }}
-  
 
   </header>
 <hr>
