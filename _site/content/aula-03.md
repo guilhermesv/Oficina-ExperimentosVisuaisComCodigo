@@ -3,7 +3,7 @@ title: "Animação"
 date: 2024-04-16T18:30:25-03:00
 draft: false
 slug: "aula-03"
-capa: "Aula03-Capa.png"
+capa: "Aula03-Capa.mp4"
 capa-alt: ""
 ---
 
