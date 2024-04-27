@@ -1,8 +1,9 @@
 {{ $srcs := .Get "src" }}
 {{ $srcs = split $srcs "," }}
 {{ $alt := .Get "alt" }}
+{{ $classes := .Get "classes" }}
 
-<figure class="galeria">
+<figure class="galeria  {{ $classes }} ">
   {{ range $srcs }}
   <img alt='{{ $alt }}' src='{{ absURL "images/"}}{{ . }}'>
   {{ end }}

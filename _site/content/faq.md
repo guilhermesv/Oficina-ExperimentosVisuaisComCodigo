@@ -13,7 +13,7 @@ O NodeBox 3 pode ser baixado no seu site oficial através desse link: [https://w
 
 Nessa página é só você escolher a opção do NodeBox 3 referente ao seu sistema operacional.
 
-## Como baixar as demonstrações, exemplos e resoluções dos exercícios no GitHub?
+## Como baixar as demons&shy;tra&shy;ções, exemplos e reso&shy;lu&shy;ções dos exercícios no GitHub?
 
 Nas páginas de cada aula você irá encontrar botões na seção de demonstrações e exercícios com um link que te redireciona para uma página que automaticamente baixa os arquivos do GitHub.
 
@@ -40,7 +40,7 @@ Para baixar todo o conteúdo do repositório:
 
 <figure><img alt="Publicação recortes" src="{{ site.url }}/assets/imgs/DownloadRepo.png"></figure>  
 
-## Posso utilizar os conteúdos e códigos desse repositório livremente em meus projetos?
+## Posso utilizar os conteúdos e códigos desse repo&shy;sitório livre&shy;mente em meus projetos?
 
 Todo o conteúdo textual e de imagens criados por mim para este site está sob uma licença [Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR) e os códigos [MIT](https://github.com/guilhermesv/DesenhandoComCodigo-Grafatorio/blob/master/LICENSE.md).
 

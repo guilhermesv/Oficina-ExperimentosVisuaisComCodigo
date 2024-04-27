@@ -178,7 +178,8 @@ Recriar algo similar ao resultado abaixo com parametrização do número de colu
 
 {{< galeria
   src="Aula01-Desafio-01.png,Aula01-Desafio-02.png,Aula01-Desafio-03.png,Aula01-Desafio-04.png"
-  alt="Padronagem que lembra bandeirinhas de festa junina, retangulares com a base triangular. As cores variam de vermelho, verde, bege, verde, azul e rosa."
+  legenda="Padronagem que lembra bandeirinhas de festa junina, retangulares com a base triangular. As cores variam de vermelho, verde, bege, verde, azul e rosa."
+  classes="duas-colunas"
 >}}
 
 

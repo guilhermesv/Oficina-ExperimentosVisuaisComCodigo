@@ -1,6 +1,6 @@
 <figure>
-  <video controls>
-    <source src='{{ absURL "images/"}}{{ .Get "src" }}' type="video/mp4" >
+  <video controls loop {{ .Get  "parametros" }}>
+    <source src='{{ absURL "images/"}}{{ .Get "src" }}' type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>{{ .Get "legenda" | safeHTML}}</figcaption>

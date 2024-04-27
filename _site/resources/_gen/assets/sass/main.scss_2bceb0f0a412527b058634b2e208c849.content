@@ -132,10 +132,13 @@ blockquote {
 
 .galeria {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: var(--espaco-pqn); }
-  .galeria figcaption {
-    grid-column: span 2; }
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: var(--espaco-pqn); }
+  .galeria.duas-colunas {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: var(--espaco-pqn); }
+    .galeria.duas-colunas figcaption {
+      grid-column: span 2; }
 
 .comentario {
   border-radius: 1em;

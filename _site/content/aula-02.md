@@ -11,6 +11,8 @@ capa-alt: ""
 
 > Apesar do uso do termo generativo ser mais amplamente utilizado nos dias atuais, o termo mais adequado seria gerativo. Para facilitar futuras pesquisas e ficar em consonância com as referências apresentadas, por enquanto utilizarei o termo generativo.
 
+{{< comentario "Talvez tirar o comentário acima se não encontrar a referência">}}
+
 ## Definição
 
 O que faz um trabalho ser generativo e o que é arte/música/design/etc generativo?
@@ -81,12 +83,12 @@ Nessse trabalho o artista visual Alexandre Villares cria uma publicação impres
 
   alt="Paredes de uma galeria com o WALL DRAWING 122, é visto vários módulos quadrados, cada módulo possui 2 linhas que variam entre algumas possibilidades como linhas retas, tracejadas, curvas ou tortas. As linhas são desenhadas em azul sobre parede branca." 
 
-  legenda=">Algumas possibilidades da publicação Desenho(). Fonte <a href='https://desenho.lugaralgum.com/'>Alexandre Villares</a>." 
+  legenda="Algumas possibilidades da publicação Desenho(). Fonte <a href='https://desenho.lugaralgum.com/'>Alexandre Villares</a>." 
 >}}
 
 ### Plotagens Contrast (Monica Rizzolli & Tony de Marco)
 
-Contrast é o nome da parceria entre Monica Rizzolli e Tony de Marco, onde a eles criam diversas artes que misturam conceitos computacionais, ilustração e tipografia para produzir em série peças únicas. Destaco aqui a série de desenhos feitos com [plotter de caneta](https://www.instagram.com/p/CERtAvXnUmb/).
+Contrast é o nome da parceria entre Monica Rizzolli e Tony de Marco, onde eles criam diversas artes que misturam conceitos computacionais, ilustração e tipografia para produzir em série peças únicas. Destaco aqui a série de desenhos feitos com [plotter de caneta](https://www.instagram.com/p/CERtAvXnUmb/).
 
 {{< figura 
   src="Aula02-Contrast-01.jpg" 
@@ -147,13 +149,15 @@ Publicação impressa criada com colagens generativas. O código produz duas var
   legenda="Exemplo de conjunto de impressos da publicação Recortes. <a href='https://guilhermevieira.info/trabalhos/recortes/'>Mais informações</a>" 
 >}}
 
-# Demonstrações
+# Demons&shy;tra&shy;ções
 
 Arquivos criados durante ou para demonstração nas aulas práticas.
 
 {{< downgit target="_blank" href="https://github.com/guilhermesv/Oficina-ExperimentosVisuaisComCodigo/tree/main/Aula-02-Demonstracoes" texto="Acessar download dos arquivos">}}
 
 # Exercícios
+
+{{< comentario "Criar um exercío baseado em cópia, tente recriar a arte abaixo, igual o primeiro. Nas resoluções de exercícios tem arquivos que podem ser uteis">}}
 
 ### Exercício 01
 
@@ -165,11 +169,7 @@ Criar uma arte generativa utilizando:
 - Pelo menos 2 nós apresentados durante esta aula;
 - Acrescentar um novo nó que não foi citado nas aulas.
 
-
 {{< comentario "Ajustar os desafios pra algum que não use subnetwork, talvez algo parecido com athos bulcao">}}
-
-
-
 
 ### Desafio 2:
 
@@ -196,14 +196,8 @@ A obra de Waldemar Cordeiro é uma pintura única, então a forma como elas vão
 
   alt="Uma serie de desenhos feitos a partir de triângulos rotacionados organizados em 9 colunas e 8 linhas. Os desenhos tem individuais tem a mesma altura e largura e os triangulas que os compões são organizados de maneira simétrica, o que aparece do lado esquerdo aparece do lado direito e o que aparece em cima, aparece em baixo, porém sempre refletido." 
 
-  legenda="Idéia Visível, Waldemar Cordeiro, 1956. Fonte: <a href='https://enciclopedia.itaucultural.org.br/obra2389/ideia-visivel'>Itaú Cultural</a>" 
+  legenda="Steven Cullinane, Diamond Theory de 1977. Fonte: <a href='http://recodeproject.com/artwork/v2n1diamond-theory'>Computer Graphics and Art</a>" 
 >}}
-
-<figure>
-  <img alt="Steven Cullinane, Diamond Theory de 1977" src="{{ site.url }}/aula-02/.png">
-  <figcaption>Steven Cullinane, Diamond Theory de 1977. Fonte: <a href="http://recodeproject.com/artwork/v2n1diamond-theory">Computer Graphics and Art</a></figcaption>
-</figure>
-
 
 ### Dicas
 
@@ -219,4 +213,4 @@ Todas as sugestões de resoluções dos exercícios e desafio podem ser baixadas
 {{< downgit target="_blank" href="https://github.com/guilhermesv/Oficina-ExperimentosVisuaisComCodigo/tree/main/Aula-02-Exercicios" texto="Acessar download dos arquivos">}}
 
 
-Dúvidas, de como baixar o arquivo do GitHub? [Clique aqui](https://guilhermesv.github.io/DesenhandoComCodigo-Grafatorio/faq)
+Dúvidas, de como baixar o arquivo do GitHub? [Clique aqui](https://etc.guilhermevieira.info/oficina/evcc-v01/faq)
