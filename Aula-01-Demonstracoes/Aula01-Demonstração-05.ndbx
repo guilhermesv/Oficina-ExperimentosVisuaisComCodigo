@@ -6,21 +6,17 @@
     <property name="canvasY" value="0"/>
     <node name="root" prototype="core.network" renderedChild="Resultado_Final">
         <node name="Resultado_Final" position="3.00,-1.00" prototype="core.network" renderedChild="translate5">
-            <node name="color5" position="-5.00,-1.00" prototype="color.color">
-                <port name="color" type="color" value="#0000ffff"/>
-            </node>
-            <node name="color6" position="-2.00,-1.00" prototype="color.color">
+            <node name="color6" position="-7.00,0.00" prototype="color.color">
                 <port name="color" type="color" value="#ff0000ff"/>
             </node>
             <node name="colorize5" position="-10.00,3.00" prototype="corevector.colorize">
                 <port name="fill" type="color" value="#ff0000ff"/>
             </node>
-            <node name="combine5" position="-5.00,1.00" prototype="list.combine"/>
             <node name="copy3" position="-10.00,-1.00" prototype="corevector.copy">
                 <port name="copies" type="int" value="2"/>
                 <port name="rotate" type="float" value="90.0"/>
             </node>
-            <node name="grid5" position="-8.00,4.00" prototype="corevector.grid">
+            <node name="grid5" position="-9.00,4.00" prototype="corevector.grid">
                 <port name="columns" type="int" value="3"/>
                 <port name="rows" type="int" value="3"/>
             </node>
@@ -38,9 +34,7 @@
             <conn input="group4.shapes" output="copy3"/>
             <conn input="colorize5.shape" output="group4"/>
             <conn input="translate5.shape" output="colorize5"/>
-            <conn input="combine5.list1" output="color5"/>
-            <conn input="combine5.list2" output="color6"/>
-            <conn input="colorize5.fill" output="combine5"/>
+            <conn input="colorize5.fill" output="color6"/>
         </node>
         <node name="color3" position="52.00,1.00" prototype="color.color">
             <port name="color" type="color" value="#0000ffff"/>

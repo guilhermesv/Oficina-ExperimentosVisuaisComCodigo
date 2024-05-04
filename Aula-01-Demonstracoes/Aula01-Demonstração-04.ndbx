@@ -4,7 +4,7 @@
     <property name="canvasWidth" value="1000"/>
     <property name="canvasX" value="0"/>
     <property name="canvasY" value="0"/>
-    <node name="root" prototype="core.network" renderedChild="copy1">
+    <node name="root" prototype="core.network" renderedChild="colorize3">
         <node name="colorize1" position="3.00,2.00" prototype="corevector.colorize">
             <port name="fill" type="color" value="#00000000"/>
             <port name="stroke" type="color" value="#67e700ff"/>
@@ -25,7 +25,7 @@
             <port name="stroke" type="color" value="#0000ffff"/>
             <port name="strokeWidth" type="float" value="10.0"/>
         </node>
-        <node name="combine1" position="6.00,8.00" prototype="list.combine"/>
+        <node name="combine1" position="3.00,8.00" prototype="list.combine"/>
         <node name="copy1" position="12.00,3.00" prototype="corevector.copy">
             <port name="copies" type="int" value="4"/>
             <port name="order" type="string" value="srt"/>
