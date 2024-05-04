@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ndbx formatVersion="21" type="file" uuid="bd7e4e23-df9b-4cfe-8b00-80b3637bbea3">
+    <property name="canvasHeight" value="1000"/>
+    <property name="canvasWidth" value="1000"/>
+    <property name="canvasX" value="0"/>
+    <property name="canvasY" value="0"/>
+    <node name="root" prototype="core.network" renderedChild="colorize2">
+        <node name="colorize2" position="52.00,9.00" prototype="corevector.colorize">
+            <port name="fill" type="color" value="#00000000"/>
+            <port name="strokeWidth" type="float" value="11.0"/>
+        </node>
+        <node name="connect1" position="52.00,6.00" prototype="corevector.connect">
+            <port name="closed" type="boolean" value="false"/>
+        </node>
+        <node comment="Conectar primeiro sem passar pelo shuffle" name="ellipse3" position="52.00,2.00" prototype="corevector.ellipse">
+            <port name="width" type="float" value="300.0"/>
+            <port name="height" type="float" value="300.0"/>
+        </node>
+        <node name="hsb_color1" position="53.00,8.00" prototype="color.hsb_color">
+            <port name="saturation" type="float" value="255.0"/>
+            <port name="brightness" type="float" value="255.0"/>
+        </node>
+        <node name="integer2" position="56.00,4.00" prototype="math.integer">
+            <port name="value" type="int" value="47"/>
+        </node>
+        <node name="point1" position="52.00,4.00" prototype="corevector.point"/>
+        <node name="random_numbers1" position="53.00,7.00" prototype="math.random_numbers">
+            <port name="amount" type="int" value="1"/>
+            <port name="end" type="float" value="255.0"/>
+            <port name="seed" type="int" value="321"/>
+        </node>
+        <node name="resample2" position="52.00,3.00" prototype="corevector.resample">
+            <port name="method" type="string" value="amount"/>
+            <port name="length" type="float" value="30.0"/>
+            <port name="points" type="int" value="6"/>
+        </node>
+        <node name="shuffle2" position="52.00,5.00" prototype="list.shuffle">
+            <port name="seed" type="int" value="332"/>
+        </node>
+        <conn input="resample2.shape" output="ellipse3"/>
+        <conn input="point1.value" output="resample2"/>
+        <conn input="shuffle2.list" output="point1"/>
+        <conn input="colorize2.shape" output="connect1"/>
+        <conn input="connect1.points" output="shuffle2"/>
+        <conn input="colorize2.stroke" output="hsb_color1"/>
+        <conn input="hsb_color1.hue" output="random_numbers1"/>
+        <conn input="shuffle2.seed" output="integer2"/>
+        <conn input="random_numbers1.seed" output="integer2"/>
+    </node>
+</ndbx>

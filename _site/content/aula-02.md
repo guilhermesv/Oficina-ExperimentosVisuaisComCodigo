@@ -163,6 +163,13 @@ Arquivos criados durante ou para demonstração nas aulas práticas.
 
 Adicionar alguma aleatoriedade para os exercícios desenvolvidos na aula anterior.
 
+{{< galeria
+  src="Aula02-Exercicio01-Exemplo-01.png,Aula02-Exercicio01-Exemplo-02.png"
+  legenda="Exemplo de resolução: Na primeira imagem, padrão regular intercalando estrelas azuis sobre losangos laranjas, e círculos verde claro sobre losangos azuis. Na segunda imagem o mesmo padrão as cores e os tamanhos dos elementos estão aleatórios gerando uma composição sem padrão aparente."
+  classes="duas-colunas"
+>}}
+
+
 ### Exercício 02
 
 Criar uma arte generativa utilizando:
@@ -171,23 +178,19 @@ Criar uma arte generativa utilizando:
 
 {{< comentario "Ajustar os desafios pra algum que não use subnetwork, talvez algo parecido com athos bulcao">}}
 
-### Desafio 2:
+### Desafio:
 
 O projeto [Recode](http://recodeproject.com/) propõe para comunidade de artista computacionais e interessados na área recriar artes computacionais em uma linguagem de programação mais contemporânea ([Processing](https://www.processing.org)). 
 
 Inspirado por esse projeto a proposta deste desafio é recriar algumas das artes abaixo:
 
-#### Waldemar Cordeiro, Idéia Visível de 1956
+#### Azulejos Athos Bulcão
 
-A obra de Waldemar Cordeiro é uma pintura única, então a forma como elas vão variar fica a seu critério.
+- Colocar aqui um exemplo em que ele só use formas bem BÁSICAS
 
-{{< figura 
-  src="Aula02-Waldemar.png" 
+#### Arte exemplo do NodeBox 3
 
-  alt="Uma tela branca com linhas pretas. Na parte superior, as linhas começam do meio e vão subindo, formando triangulos que se sobrepõe. Na parte inferior o mesmo desenho é feito porém espelhado." 
 
-  legenda="Idéia Visível, Waldemar Cordeiro, 1956. Fonte: <a href='https://enciclopedia.itaucultural.org.br/obra2389/ideia-visivel'>Itaú Cultural</a>" 
->}}
 
 #### Steven Cullinane, Diamond Theory de 1977
 
