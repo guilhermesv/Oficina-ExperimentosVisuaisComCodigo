@@ -88,7 +88,7 @@ Nessse trabalho o artista visual Alexandre Villares cria uma publicação impres
 
 ### Plotagens Contrast (Monica Rizzolli & Tony de Marco)
 
-Contrast é o nome da parceria entre Monica Rizzolli e Tony de Marco, onde eles criam diversas artes que misturam conceitos computacionais, ilustração e tipografia para produzir em série peças únicas. Destaco aqui a série de desenhos feitos com [plotter de caneta](https://www.instagram.com/p/CERtAvXnUmb/).
+Contrast é o nome da parceria entre Monica Rizzolli e Tony de Marco, onde eles criam diversas artes que misturam conceitos computacionais, ilustração e tipografia para produzir em série peças únicas. Destaco aqui a série de desenhos feitos com [plotter de caneta](https://en.wikipedia.org/wiki/Plotter#/media/File:Plotter_printer_homemade_crop.jpg).
 
 {{< figura 
   src="Aula02-Contrast-01.jpg" 
@@ -157,15 +157,13 @@ Arquivos criados durante ou para demonstração nas aulas práticas.
 
 # Exercícios
 
-{{< comentario "Criar um exercío baseado em cópia, tente recriar a arte abaixo, igual o primeiro. Nas resoluções de exercícios tem arquivos que podem ser uteis">}}
-
 ### Exercício 01
 
 Adicionar alguma aleatoriedade para os exercícios desenvolvidos na aula anterior.
 
 {{< galeria
   src="Aula02-Exercicio01-Exemplo-01.png,Aula02-Exercicio01-Exemplo-02.png"
-  legenda="Exemplo de resolução: Na primeira imagem, padrão regular intercalando estrelas azuis sobre losangos laranjas, e círculos verde claro sobre losangos azuis. Na segunda imagem o mesmo padrão as cores e os tamanhos dos elementos estão aleatórios gerando uma composição sem padrão aparente."
+  legenda="Exemplo de resolução: Na primeira imagem padrão sem aleatoriedade, na segunda foi acrescentado variações de tamanho e quantidade de elementos."
   classes="duas-colunas"
 >}}
 
@@ -176,8 +174,6 @@ Criar uma arte generativa utilizando:
 - Pelo menos 2 nós apresentados durante esta aula;
 - Acrescentar um novo nó que não foi citado nas aulas.
 
-{{< comentario "Ajustar os desafios pra algum que não use subnetwork, talvez algo parecido com athos bulcao">}}
-
 ### Desafio:
 
 O projeto [Recode](http://recodeproject.com/) propõe para comunidade de artista computacionais e interessados na área recriar artes computacionais em uma linguagem de programação mais contemporânea ([Processing](https://www.processing.org)). 
@@ -186,11 +182,13 @@ Inspirado por esse projeto a proposta deste desafio é recriar algumas das artes
 
 #### Azulejos Athos Bulcão
 
-- Colocar aqui um exemplo em que ele só use formas bem BÁSICAS
+{{< figura 
+  src="Aula02-Desafio-AthosBulcão.jpg" 
 
-#### Arte exemplo do NodeBox 3
+  alt="Parede de azulejos branco com grafismos azuis. Cada azulejo possui um desenho de triangulo ou retangulo e são colocados de forma aleatória gerando uma composição sem padrão aparente." 
 
-
+  legenda="Azulejos de Athos Bulcão. Fonte: <a href='https://vogue.globo.com/lifestyle/cultura/noticia/2015/03/galeria-nara-roesler-organiza-mostra-com-murais-de-azulejo-de-athos-bulcao.html'>Vogue</a>" 
+>}}
 
 #### Steven Cullinane, Diamond Theory de 1977
 
@@ -202,12 +200,23 @@ Inspirado por esse projeto a proposta deste desafio é recriar algumas das artes
   legenda="Steven Cullinane, Diamond Theory de 1977. Fonte: <a href='http://recodeproject.com/artwork/v2n1diamond-theory'>Computer Graphics and Art</a>" 
 >}}
 
+#### Arte exemplo do NodeBox 3
+
+{{< figura 
+  src="Aula02-Desafio-ArteNodeBox.jpg" 
+
+  alt="3 formas abstratas são desenhadas conectando alguns pontos de uma malha de 5 por 5. Cada uma dessas formas são preenchidas com uma cor: azul escuro, azul claro e branco." 
+
+  legenda="Arte de exemplo na página de sobre na site oficial do NodeBox 3. Fonte: <a href='https://www.nodebox.net/node/'>NodeBox 3</a>" 
+>}}
+
+
 ### Dicas
 
 - Olhe para a arte e tente abstrair quais os elementos essenciais e suas relações;
 - Decomponha a arte em etapas para serem desenhadas;
 - Quando tiver os elementos principais construídos, acrescente aleatoriedade;
-- Nas minhas soluções, ambos os projetos precisaram utilizar subnetworks. Na documentação do Nodebox tem um execelente tutorial, acesse neste [link](https://www.nodebox.net/node/documentation/concepts/subnetworks).
+- Nas minhas soluções, precisei utilizar subnetworks na reprodução da arte do Steven Cullinane e do site do NodeBox. Na documentação do NodeBox tem um execelente tutorial, acesse neste [link](https://www.nodebox.net/node/documentation/concepts/subnetworks).
 
 # Resolução dos exercícios
 

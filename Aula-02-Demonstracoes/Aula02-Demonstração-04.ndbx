@@ -4,7 +4,7 @@
     <property name="canvasWidth" value="1000"/>
     <property name="canvasX" value="0"/>
     <property name="canvasY" value="0"/>
-    <node name="root" prototype="core.network" renderedChild="colorize1">
+    <node name="root" prototype="core.network" renderedChild="translate1">
         <node name="GeradorSimbolo" position="84.00,8.00" prototype="core.network" renderedChild="group2">
             <node name="align2" position="6.00,10.00" prototype="corevector.align"/>
             <node name="color4" position="9.00,6.00" prototype="color.color">
@@ -18,7 +18,7 @@
             <node name="combine2" position="9.00,7.00" prototype="list.combine"/>
             <node name="group2" position="6.00,11.00" prototype="corevector.group"/>
             <node name="import_svg2" position="6.00,4.00" prototype="corevector.import_svg">
-                <port name="file" type="string" value="Aula02-Demonstração-04.ndbx"/>
+                <port name="file" type="string" value="Aula02-Demonstração-04.svg"/>
             </node>
             <node name="integer2" position="13.00,3.00" prototype="math.integer"/>
             <node name="pick2" position="6.00,8.00" prototype="list.pick">
