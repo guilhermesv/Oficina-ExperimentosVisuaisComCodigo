@@ -3,7 +3,7 @@ title: "Animação"
 date: 2024-04-16T18:30:25-03:00
 draft: false
 slug: "aula-03"
-capa: "Aula03-Capa.mp4"
+capa: "Aula-03-Capa.mp4"
 capa-alt: ""
 ---
 
@@ -16,7 +16,7 @@ Criar animações utilizando programação envolve sempre desenhar algo e estabe
 No exemplo a seguir podemos ver o **parâmetro tamanho** do círculo que **aumentar linearmente** a medida que o tempo passa:
 
 {{< video
-  src="Aula03-Animacao-01-Comp.mp4"
+  src="Aula-03-Animacao-01-Comp.mp4"
   legenda="Um círculo vermelho sobre um fundo preto cresce de maneira uniforme e continua até preencher toda a tela."
   parametros="autoplay"
 >}}
@@ -26,7 +26,7 @@ Além de entender como vai funcionar o parâmetro a ser animado, a forma como es
 Agora a baixo temos o mesmo parâmetro tamanho controlado utilizando uma função seno:
 
 {{< video
-  src="Aula03-Animacao-02-Comp.mp4"
+  src="Aula-03-Animacao-02-Comp.mp4"
   legenda="Um círculo vermelho sobre um fundo preto cresce e diminui lentamente como se estivesse pulsando."
   parametros="autoplay"
 >}}
@@ -43,7 +43,7 @@ Trabalhos criados pelo designer [Dave Whyte](http://beesandbombs.com/).
 
 {{< galeria
 
-  src="Aula03-BeesAndBombs-01.webp,Aula03-BeesAndBombs-02.webp,Aula03-BeesAndBombs-03.webp,Aula03-BeesAndBombs-04.webp,Aula03-BeesAndBombs-05.webp,Aula03-BeesAndBombs-06.webp"
+  src="Aula-03-BeesAndBombs-01.webp,Aula-03-BeesAndBombs-02.webp,Aula-03-BeesAndBombs-03.webp,Aula-03-BeesAndBombs-04.webp,Aula-03-BeesAndBombs-05.webp,Aula-03-BeesAndBombs-06.webp"
   legenda="Animações do designer Bees and Bombs."
   classes="duas-colunas"
 
@@ -55,7 +55,7 @@ Trabalhos criados pelo designer [Just van Rossum](https://dailydrawbot.tumblr.co
 
 {{< galeria
 
-  src="Aula03-DailyDrawbot-01.webp,Aula03-DailyDrawbot-02.webp,Aula03-DailyDrawbot-03.webp,Aula03-DailyDrawbot-04.webp,Aula03-DailyDrawbot-05.webp,Aula03-DailyDrawbot-06.webp"
+  src="Aula-03-DailyDrawbot-01.webp,Aula-03-DailyDrawbot-02.webp,Aula-03-DailyDrawbot-03.webp,Aula-03-DailyDrawbot-04.webp,Aula-03-DailyDrawbot-05.webp,Aula-03-DailyDrawbot-06.webp"
   legenda="Animações do designer Just van Rossum."
   classes="duas-colunas"
 
@@ -67,7 +67,7 @@ Trabalhos criados pela artista [Seo Hyojung](https://www.instagram.com/seohyo/).
 
 {{< galeria
 
-  src="Aula03-HyojungSeo-00.webp,Aula03-HyojungSeo-01.webp,Aula03-HyojungSeo-02.webp,Aula03-HyojungSeo-03.webp"
+  src="Aula-03-HyojungSeo-00.webp,Aula-03-HyojungSeo-01.webp,Aula-03-HyojungSeo-02.webp,Aula-03-HyojungSeo-03.webp"
   legenda="Animações da artista Seo Hyojung."
   classes="duas-colunas"
 
@@ -76,12 +76,12 @@ Trabalhos criados pela artista [Seo Hyojung](https://www.instagram.com/seohyo/).
 Abaixo alguns trabalhos desenvolvidos em conjunto com seus alunos:
 
 {{< video
-  src="Aula03-HyojungSeo-04.mp4"
+  src="Aula-03-HyojungSeo-04.mp4"
   legenda="Projeto com realiadade aumentada, onde um cartão com um desenho é exibido para a camera e uma animação começa a tocar em cima da imagem do cartão."
 >}}
 
 {{< video
-  src="Aula03-HyojungSeo-05.mp4"
+  src="Aula-03-HyojungSeo-05.mp4"
   legenda="Projeto com realiadade aumentada, onde um cartão com um desenho é exibido para a camera e uma animação começa a tocar em cima da imagem do cartão."
 >}}
 
@@ -89,7 +89,7 @@ Abaixo alguns trabalhos desenvolvidos em conjunto com seus alunos:
 
 Arquivos criados durante ou para demonstração nas aulas práticas.
 
-{{< downgit target="_blank" href="https://github.com/guilhermesv/Oficina-ExperimentosVisuaisComCodigo/tree/main/Aula-03-Demonstracoes" texto="Acessar download dos arquivos">}}
+{{< downgit target="_blank" href="https://github.com/guilhermesv/Oficina-ExperimentosVisuaisComCodigo/tree/main/Aula-03-Demonstra%C3%A7%C3%B5es" texto="Acessar download dos arquivos">}}
 
 # Exercícios
 
@@ -98,13 +98,13 @@ Arquivos criados durante ou para demonstração nas aulas práticas.
 Adicionar alguma animação nos exercícios anteriores.
 
 {{< video
-  src="Aula03-Exercicio01-01.mp4"
+  src="Aula-03-Exercício-01-01.mp4"
   
   legenda="Exemplo de resolução: padrão da primeira aula com os elementos em movimento."
 >}}
 
 {{< video
-  src="Aula03-Exercicio01-02.mp4"
+  src="Aula-03-Exercício-01-02.mp4"
   
   legenda="Exemplo de resolução: composição tipográfica da segunda aula elementos em movimento."
 >}}
@@ -114,7 +114,7 @@ Adicionar alguma animação nos exercícios anteriores.
 Criar uma animação que seja um loop perfeito, ou seja o começo e o fim se encaixem dando a sensação de ser infinita. 
 
 {{< video
-  src="Aula03-Exercício02-01.mp4"
+  src="Aula-03-Exercício-02-01.mp4"
   
   legenda="Exemplo de resolução: composição tipográfica da segunda aula elementos em movimento."
 >}}
@@ -124,19 +124,19 @@ Criar uma animação que seja um loop perfeito, ou seja o começo e o fim se enc
 Parte 1 - Recriar a animação abaixo:
 
 {{< video
-  src="Aula03-Desafio-01.mp4"
+  src="Aula-03-Desafio-01.mp4"
   parametros="autoplay"
 >}}
 
 Parte 2 - Recriar alguma dessas variações:
 
 {{< video
-  src="Aula03-Desafio-02.mp4"
+  src="Aula-03-Desafio-02.mp4"
   parametros="autoplay"
 >}}
 
 {{< video
-  src="Aula03-Desafio-03.mp4"
+  src="Aula-03-Desafio-03.mp4"
   parametros="autoplay"
 >}}
 
@@ -149,6 +149,6 @@ Parte 2 - Recriar alguma dessas variações:
 
 Todas as sugestões de resoluções dos exercícios e desafio podem ser baixadas no link abaixo:
 
-{{< downgit target="_blank" href="https://github.com/guilhermesv/Oficina-ExperimentosVisuaisComCodigo/tree/main/Aula-03-Exercicios" texto="Acessar download dos arquivos">}}
+{{< downgit target="_blank" href="https://github.com/guilhermesv/Oficina-ExperimentosVisuaisComCodigo/tree/main/Aula-03-Exerc%C3%ADcios" texto="Acessar download dos arquivos">}}
 
 Dúvidas, de como baixar o arquivo do GitHub? [Clique aqui](https://etc.guilhermevieira.info/oficina/evcc-v01/faq)

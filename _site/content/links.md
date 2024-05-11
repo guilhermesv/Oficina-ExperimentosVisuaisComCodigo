@@ -41,7 +41,7 @@ A classificação é bem genérica e muitos links poderiam caber em mais de uma 
 - [Schultzschultz](https://www.instagram.com/schultzschultzgrafik/)
 - [Freny Antony](https://www.instagram.com/procedural.disarray/)
 - [Ambos](http://ambos.art.br/)
-- [CoziCoding](https://www.twitch.tv/cozycoding)
+- [CozyCoding](https://www.twitch.tv/cozycoding)
 - [Rodjun](https://www.twitch.tv/rodjunjun)
 - [Dmtr](http://dmtr.org/)
 - [Andreas Pihlström](https://www.instagram.com/suprb/)

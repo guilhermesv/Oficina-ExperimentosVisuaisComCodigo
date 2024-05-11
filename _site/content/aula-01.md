@@ -3,7 +3,7 @@ title = 'Introdução a programação visual'
 date = 2024-04-02T17:36:42-03:00
 draft = false
 slug = 'aula-01'
-capa = 'Aula01-Capa.jpg'
+capa = 'Aula-01-Capa.jpg'
 +++
 
 # Conceitos
@@ -17,7 +17,7 @@ capa = 'Aula01-Capa.jpg'
 - Expandir o espaço das ideias
 
 {{< figura 
-  src="Aula01-Diagrama-EspacoDasIdeias.png" 
+  src="Aula-01-Diagrama-EspacoDasIdeias.png" 
 
   alt="Diagrama ilustrando a ideia de espaço da ideias: o fundo é preenchido de um laranja que esmaece ao chegar nas bordas do diagrama, nesse fundo o texto Espaço das Ideias está escrito em branco, no meio desse fundo um círculo com cortorno branco escrito espaço das ferramentas em sua borda. 3 ideas síbomlizadas como um ponto estão situadas no diagrama: a executável dentro do espaço das ferramentas, uma na borda do espaço das ferramentas chamada adaptável e uma outra bem distante do espaço das ferremntas a ideia impossível." 
 
@@ -46,7 +46,7 @@ Identificar e extrair o mais relevante de um problema ou informação.
 
 Exemplos: números, mapas, agenda, etc.
 
-{{< figura src="Aula01-Mapa-Metro.png" alt="Mapa do Metrô de São Paulo" legenda="Mapa do Metrô de São Paulo: Fonte <a href='https://commons.wikimedia.org/wiki/File:Mapa_metro_sp.svg'>Wikipedia</a>." >}}
+{{< figura src="Aula-01-Mapa-Metro.png" alt="Mapa do Metrô de São Paulo" legenda="Mapa do Metrô de São Paulo: Fonte <a href='https://commons.wikimedia.org/wiki/File:Mapa_metro_sp.svg'>Wikipedia</a>." >}}
 
 ### Algoritmo
 
@@ -55,7 +55,7 @@ Criar uma série de instruções para resolver uma tarefa e tarefas similares.
 Exemplos: operações matemáticas (somar, dividir, multiplicar, etc), receita de bolo, jogadas de futebol, etc.
 
 {{< figura 
-  src="Aula01-Conta-Adicao.jpg"
+  src="Aula-01-Conta-Adicao.jpg"
   alt="Operação de adição com números decimais"
   legenda="Operação de adição com números decimais. Fonte: <a href='http://seusaber.com.br/matematica/como-fazer-contas-de-somar-com-virgula.html'>Seu saber</a>." 
 >}}
@@ -67,7 +67,7 @@ Decompor o problema/informação em porções menores.
 Exemplos: uma rota para se chegar a um local, estabelecer um cronograma baseado no tempo gasto em cada uma das etapas, entender o como uma bicicleta funciona a partir de suas peças, etc.
 
 {{< figura 
-  src="Aula01-Rota.jpg"
+  src="Aula-01-Rota.jpg"
   alt="Como chegar da Praça da Sé até a Praça da República em São Paulo"
   legenda="Como chegar da Praça da Sé até a Praça da República em São Paulo. Fonte: <a href='https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=-23.5504%2C-46.6331%3B-23.5432%2C-46.6425#map=17/-23.54662/-46.63781'>OpenStreet Map</a>." 
 >}}
@@ -81,7 +81,7 @@ Exemplos: controle de volume ou equalizador em um player ou caixa de som, regist
 (Este é um conceito que não encontrei dessa forma nas bibliografias, mas achei importante ressaltar aqui)
 
 {{< figura 
-  src="Aula01-Receiver.jpg"
+  src="Aula-01-Receiver.jpg"
   alt="Aparelho de controle de som receiver"
   legenda="Aparelho de controle de som receiver com diversos controles. Fonte: <a href='https://vintage7080.blogspot.com/2018/01/gradiente-59-receiver-model-1450.html'>Vintage 70/90</a>." 
 >}}
@@ -103,7 +103,7 @@ Experimento explorando composições usando três formas primitivas:  circulo, q
 ### DiaTipo São Paulo 2018
 
 {{< figura 
-  src="Aula01-Diatipo.gif"
+  src="Aula-01-Diatipo.gif"
   alt="Identidade visual para o DiaTipo São Paulo"
   legenda="Identidade visual para o DiaTipo São Paulo. Fonte: <a href='https://www.behance.net/gallery/83219303/DiaTipo-Sao-Paulo-2018'>Daó + Deia Kulpas</a>" 
 >}}
@@ -117,7 +117,7 @@ Identidade desenvolvida pelo [Daó](https://estudiodao.com) junto com a [Deia Ku
 Nicholas Rougeux é designer e artista de dados, em seu trabalho explora as possibilidades de visualizar dados gráficamente.
 
 {{< figura 
-  src="Aula01-c82.jpg"
+  src="Aula-01-c82.jpg"
   alt="Cartaz dos dados diário do vento e temperatura durante um ano nas cidades mais populosas de cada estado dos Estados Unidos da América. O cartaz apresenta um fundo azul escuro, o título Weather Portrais 2021 U.S. Cities, uma série de mini diagramas sobre a temperatura em diversas cidades do E.U.A. e ao fim uma legenda explicativa do material. "
   legenda="Cartaz dos dados diário do vento e temperatura durante um ano nas cidades mais populosas de cada estado dos Estados Unidos da América. Fonte: <a href='https://www.c82.net/blog/?id=71'>Nicholas Rougeux</a>." 
 >}}
@@ -130,14 +130,14 @@ Seohyo é uma artista Sul Coreana que trabalha com arte gerativa, seu trabalho a
 
 {{< botao texto="Mais informações aqui" href="https://www.instagram.com/seohyo/">}}
 
-{{< video src="Aula01-Artista-Seohyo-01.mp4" legenda="Uma imagem é redesenhada continuamente em uma grade preenchida com linhas horizontais, verticais e diagonais.">}}
+{{< video src="Aula-01-Artista-Seohyo-01.mp4" legenda="Uma imagem é redesenhada continuamente em uma grade preenchida com linhas horizontais, verticais e diagonais.">}}
 
 # Programação Visual e Nodebox 3 
 
 Quando falamos em programação logo imaginamos uma tela cheia de códigos escritos, porém essa não é a única maneira de programar. Algumas linguagens trabalham com a programação visual, onde através de uma interface você conecta funções e valores criando o código visualmente.
 
 {{< figura 
-  src="Aula01-Blender.jpg"
+  src="Aula-01-Blender.jpg"
   alt="Tela do prrograma Blender 3d, no lado esquerdo um esquema de nós que são pequenas caixas com entradas e saídas conectadas umas as outras e a direita o resultado do código, um emaranhado de linhas curvas em 3D."
   legenda="Interface de programação com nós do Geometry Nodes no prrograma Blender 3d." 
 >}}
@@ -145,7 +145,7 @@ Quando falamos em programação logo imaginamos uma tela cheia de códigos escri
 Nesta oficina utilizaremos o Nodebox  que é um aplicativo que permite por meio da programação visual baseada em um sistema de nós criar peças de design gerativo, animação e visualização de dados em uma interface simples e amigável.
 
 {{< figura 
-  src="Aula01-Nodebox.png"
+  src="Aula-01-Nodebox.png"
   alt="Tela do prrograma Blender 3d, no lado esquerdo um esquema de nós que são pequenas caixas com entradas e saídas conectadas umas as outras e a direita o resultado do código, um emaranhado de linhas curvas em 3D."
   legenda="Tela do aplicativo Nodebox rodando uma arte generativa. A esquerda a arte e a direita inferior o sistema de nós com o código. Fonte: <a href='http://nodebox.net'>Nodebox</a>." 
 >}}
@@ -154,7 +154,7 @@ Nesta oficina utilizaremos o Nodebox  que é um aplicativo que permite por meio 
 
 Arquivos criados durante ou para demonstração nas aulas práticas.
 
-{{< downgit target="_blank" href="https://github.com/guilhermesv/Oficina-ExperimentosVisuaisComCodigo/tree/main/Aula-01-Demonstracoes" texto="Acessar download dos arquivos">}}
+{{< downgit target="_blank" href="https://github.com/guilhermesv/Oficina-ExperimentosVisuaisComCodigo/tree/main/Aula-01-Demonstra%C3%A7%C3%B5es" texto="Acessar download dos arquivos">}}
 
 # Exercícios
 
@@ -169,7 +169,7 @@ Experimente, e principalmente se divirta :)
 Criar um padrão geométrico explorando as primitivas básicas e o nó grid. 
 
 {{< figura 
-  src="Aula02-Exercicio01-Exemplo-01.png"
+  src="Aula-01-Exercício-01-Exemplo.png"
   alt="Padrão regular intercalando estrelas azuis sobre losangos laranjas, e círculos verde claro sobre losangos azuis."
   legenda="Exemplo de resolução: padrão criado usando retângulos, círculos e estrelas. Cada conjunto de elemento possui  uma cor específica." 
 >}}
@@ -179,7 +179,7 @@ Criar um padrão geométrico explorando as primitivas básicas e o nó grid.
 Criar uma composição livre utilizando as transformações e o nó copy.
 
 {{< figura 
-  src="Aula01-Exercicio02-Exemplo-01.png"
+  src="Aula-01-Exercício-02-Exemplo.png"
   alt="Uma forma circular lembrando uma flor aparece no meio da composição, por trás dessa forma uma repetição dessa mesma forma vai acontecendo de maneira consecutiva aumentando de tamanho. As formas são preenchidas com cores intercaladas de laranja e preto."
   legenda="Exemplo de resolução: composição criada a partir da rotação e cópia de uma elipse. As cores se alternam entre as camadas." 
 >}}
@@ -190,7 +190,7 @@ Criar uma composição livre utilizando as transformações e o nó copy.
 Recriar algo similar ao resultado abaixo com parametrização do número de colunas e linhas, ou seja ao mudar a quantidade de colunas ou linhas, o padrão deve se ajustar automaticamente:
 
 {{< galeria
-  src="Aula01-Desafio-01.png,Aula01-Desafio-02.png,Aula01-Desafio-03.png,Aula01-Desafio-04.png"
+  src="Aula-01-Desafio-01.png,Aula-01-Desafio-02.png,Aula-01-Desafio-03.png,Aula-01-Desafio-04.png"
   legenda="Padronagem que lembra bandeirinhas de festa junina, retangulares com a base triangular. As cores variam de vermelho, verde, bege, verde, azul e rosa."
   classes="duas-colunas"
 >}}
@@ -206,7 +206,7 @@ Recriar algo similar ao resultado abaixo com parametrização do número de colu
 
 Todas as sugestões de resoluções dos exercícios e desafio podem ser baixadas no link abaixo:
 
-{{< downgit target="_blank" href="https://github.com/guilhermesv/Oficina-ExperimentosVisuaisComCodigo/tree/main/Aula-01-Exercicios" texto="Acessar download dos arquivos">}}
+{{< downgit target="_blank" href="https://github.com/guilhermesv/Oficina-ExperimentosVisuaisComCodigo/tree/main/Aula-01-Exerc%C3%ADcios" texto="Acessar download dos arquivos">}}
 
 
 Dúvidas, de como baixar o arquivo do GitHub? [Clique aqui](https://etc.guilhermevieira.info/oficina/evcc-v01/faq)
