@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ndbx formatVersion="21" type="file" uuid="f57b27cf-a212-433e-96dd-8a4af1e59350">
+    <property name="canvasHeight" value="1000"/>
+    <property name="canvasWidth" value="1000"/>
+    <property name="canvasX" value="0"/>
+    <property name="canvasY" value="0"/>
+    <node name="root" prototype="core.network" renderedChild="fit1">
+        <node name="add1" position="19.00,4.00" prototype="math.add"/>
+        <node name="add3" position="8.00,4.00" prototype="math.add"/>
+        <node name="align1" position="14.00,14.00" prototype="corevector.align"/>
+        <node name="align3" position="3.00,14.00" prototype="corevector.align"/>
+        <node name="color1" position="17.00,7.00" prototype="color.color"/>
+        <node name="color5" position="6.00,7.00" prototype="color.color"/>
+        <node name="colorize1" position="14.00,10.00" prototype="corevector.colorize"/>
+        <node name="colorize3" position="3.00,10.00" prototype="corevector.colorize"/>
+        <node name="combine1" position="17.00,9.00" prototype="list.combine"/>
+        <node name="combine3" position="8.00,20.00" prototype="list.combine"/>
+        <node name="combine4" position="6.00,9.00" prototype="list.combine"/>
+        <node name="count1" position="16.00,1.00" prototype="list.count"/>
+        <node name="count3" position="5.00,1.00" prototype="list.count"/>
+        <node name="fit1" position="8.00,23.00" prototype="corevector.fit">
+            <port name="width" type="float" value="1000.0"/>
+            <port name="height" type="float" value="1000.0"/>
+            <port name="keep_proportions" type="boolean" value="false"/>
+        </node>
+        <node name="frame1" position="22.00,1.00" prototype="core.frame"/>
+        <node name="frame2" position="22.00,5.00" prototype="core.frame"/>
+        <node name="frame3" position="11.00,1.00" prototype="core.frame"/>
+        <node name="group1" position="14.00,11.00" prototype="corevector.group"/>
+        <node name="group3" position="8.00,22.00" prototype="corevector.group"/>
+        <node name="group4" position="3.00,11.00" prototype="corevector.group"/>
+        <node name="hsb_color1" position="21.00,7.00" prototype="color.hsb_color">
+            <port name="saturation" type="float" value="255.0"/>
+            <port name="brightness" type="float" value="255.0"/>
+        </node>
+        <node name="range1" position="19.00,-1.00" prototype="math.range">
+            <port name="end" type="float" value="20.0"/>
+        </node>
+        <node name="range3" position="8.00,-1.00" prototype="math.range">
+            <port name="end" type="float" value="20.0"/>
+        </node>
+        <node name="rect1" position="14.00,7.00" prototype="corevector.rect"/>
+        <node name="rect3" position="3.00,7.00" prototype="corevector.rect"/>
+        <node name="stack1" position="14.00,8.00" prototype="corevector.stack">
+            <port name="direction" type="string" value="s"/>
+            <port name="margin" type="float" value="0.0"/>
+        </node>
+        <node name="stack3" position="8.00,21.00" prototype="corevector.stack">
+            <port name="margin" type="float" value="0.0"/>
+        </node>
+        <node name="stack4" position="3.00,8.00" prototype="corevector.stack">
+            <port name="direction" type="string" value="s"/>
+            <port name="margin" type="float" value="0.0"/>
+        </node>
+        <node name="wave1" position="16.00,6.00" prototype="math.wave">
+            <port name="period" type="float" value="20.0"/>
+        </node>
+        <node name="wave2" position="20.00,3.00" prototype="math.wave">
+            <port name="max" type="float" value="20.0"/>
+            <port name="period" type="float" value="400.0"/>
+        </node>
+        <node name="wave3" position="21.00,6.00" prototype="math.wave">
+            <port name="max" type="float" value="255.0"/>
+            <port name="period" type="float" value="200.0"/>
+            <port name="offset" type="float" value="1.0"/>
+            <port name="type" type="string" value="sawtooth"/>
+        </node>
+        <node name="wave5" position="5.00,6.00" prototype="math.wave">
+            <port name="period" type="float" value="20.0"/>
+        </node>
+        <node name="wave6" position="9.00,3.00" prototype="math.wave">
+            <port name="max" type="float" value="20.0"/>
+            <port name="period" type="float" value="200.0"/>
+        </node>
+        <conn input="rect1.height" output="wave1"/>
+        <conn input="add1.value1" output="range1"/>
+        <conn input="wave1.offset" output="add1"/>
+        <conn input="stack1.shapes" output="rect1"/>
+        <conn input="colorize1.shape" output="stack1"/>
+        <conn input="colorize1.fill" output="combine1"/>
+        <conn input="combine1.list1" output="color1"/>
+        <conn input="group1.shapes" output="colorize1"/>
+        <conn input="align1.shape" output="group1"/>
+        <conn input="add1.value2" output="wave2"/>
+        <conn input="wave2.offset" output="frame1"/>
+        <conn input="count1.list" output="range1"/>
+        <conn input="wave1.period" output="count1"/>
+        <conn input="wave2.max" output="count1"/>
+        <conn input="stack3.shapes" output="combine3"/>
+        <conn input="group3.shapes" output="stack3"/>
+        <conn input="fit1.shape" output="group3"/>
+        <conn input="combine3.list4" output="align1"/>
+        <conn input="rect3.height" output="wave5"/>
+        <conn input="add3.value1" output="range3"/>
+        <conn input="wave5.offset" output="add3"/>
+        <conn input="stack4.shapes" output="rect3"/>
+        <conn input="colorize3.shape" output="stack4"/>
+        <conn input="colorize3.fill" output="combine4"/>
+        <conn input="group4.shapes" output="colorize3"/>
+        <conn input="align3.shape" output="group4"/>
+        <conn input="add3.value2" output="wave6"/>
+        <conn input="wave6.offset" output="frame3"/>
+        <conn input="count3.list" output="range3"/>
+        <conn input="wave5.period" output="count3"/>
+        <conn input="wave6.max" output="count3"/>
+        <conn input="combine3.list1" output="align3"/>
+        <conn input="combine1.list2" output="hsb_color1"/>
+        <conn input="hsb_color1.hue" output="wave3"/>
+        <conn input="wave3.offset" output="frame2"/>
+        <conn input="combine4.list1" output="hsb_color1"/>
+        <conn input="combine4.list2" output="color5"/>
+    </node>
+</ndbx>

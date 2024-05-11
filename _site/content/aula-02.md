@@ -161,10 +161,13 @@ Arquivos criados durante ou para demonstração nas aulas práticas.
 
 Adicionar alguma aleatoriedade para os exercícios desenvolvidos na aula anterior.
 
-{{< galeria
-  src="Aula02-Exercicio01-Exemplo-01.png,Aula02-Exercicio01-Exemplo-02.png"
-  legenda="Exemplo de resolução: Na primeira imagem padrão sem aleatoriedade, na segunda foi acrescentado variações de tamanho e quantidade de elementos."
-  classes="duas-colunas"
+
+{{< figura 
+  src="Aula02-Exercicio01-Exemplo-02.png"
+
+  alt="Losangos, círculos e estrelas nas cores laranja, verde e azul respectivamente sobre um fundo azul aparecem intercalados de maneira aleatória." 
+
+  legenda="Exemplo de resolução: Foi acrescentado variações de tamanho e quantidade de elementos no padrão desenvolvido na primeira aula." 
 >}}
 
 
@@ -173,6 +176,16 @@ Adicionar alguma aleatoriedade para os exercícios desenvolvidos na aula anterio
 Criar uma arte generativa utilizando:
 - Pelo menos 2 nós apresentados durante esta aula;
 - Acrescentar um novo nó que não foi citado nas aulas.
+
+{{< figura 
+  src="Aula02-Exercicio02-Exemplo-01.png" 
+
+  alt="O verso 'O saci pererê vai dançar de uma perna só' aparece composto com as letras distorcidas e rotacionadas sobre um fundo preto, as palavras são pintadas de azul e branco de forma intercalada." 
+
+  legenda="Exemplo de resolução: Utilizando o nó para criação de texto, criei uma composição tipográfica que distorce e rotaciona as letras das palavras de forma aleatória." 
+>}}
+
+
 
 ### Desafio:
 

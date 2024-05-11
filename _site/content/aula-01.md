@@ -171,7 +171,7 @@ Criar um padrão geométrico explorando as primitivas básicas e o nó grid.
 {{< figura 
   src="Aula02-Exercicio01-Exemplo-01.png"
   alt="Padrão regular intercalando estrelas azuis sobre losangos laranjas, e círculos verde claro sobre losangos azuis."
-  legenda="Exemplo de resolução." 
+  legenda="Exemplo de resolução: padrão criado usando retângulos, círculos e estrelas. Cada conjunto de elemento possui  uma cor específica." 
 >}}
 
 ## Exercício 02
@@ -181,7 +181,7 @@ Criar uma composição livre utilizando as transformações e o nó copy.
 {{< figura 
   src="Aula01-Exercicio02-Exemplo-01.png"
   alt="Uma forma circular lembrando uma flor aparece no meio da composição, por trás dessa forma uma repetição dessa mesma forma vai acontecendo de maneira consecutiva aumentando de tamanho. As formas são preenchidas com cores intercaladas de laranja e preto."
-  legenda="Exemplo de resolução." 
+  legenda="Exemplo de resolução: composição criada a partir da rotação e cópia de uma elipse. As cores se alternam entre as camadas." 
 >}}
 
 

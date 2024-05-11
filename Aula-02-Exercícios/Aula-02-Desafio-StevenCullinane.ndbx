@@ -157,7 +157,7 @@
         <node name="group3" position="-36.00,3.00" prototype="corevector.group"/>
         <node name="group4" position="-36.00,7.00" prototype="corevector.group"/>
         <node comment="https://numbergenerator.org/permutations-and-combinations/list#!numbers=4&amp;lines=5&amp;low=0&amp;high=100&amp;range=0,90,180,270&amp;unique=false&amp;order_matters=true&amp;csv=csv&amp;oddeven=&amp;oddqty=0&amp;sorted=false&amp;sets=&amp;addfilters=" name="import_csv1" position="-34.00,11.00" prototype="data.import_csv">
-            <port name="file" type="string" value="Aula02-Desafio-StevenCullinane.csv"/>
+            <port name="file" type="string" value="Aula-02-Desafio-StevenCullinane.csv"/>
         </node>
         <node name="pick8" position="-34.00,-1.00" prototype="list.pick">
             <port name="amount" type="int" value="1"/>

@@ -97,9 +97,27 @@ Arquivos criados durante ou para demonstração nas aulas práticas.
 
 Adicionar alguma animação nos exercícios anteriores.
 
+{{< video
+  src="Aula03-Exercicio01-01.mp4"
+  
+  legenda="Exemplo de resolução: padrão da primeira aula com os elementos em movimento."
+>}}
+
+{{< video
+  src="Aula03-Exercicio01-02.mp4"
+  
+  legenda="Exemplo de resolução: composição tipográfica da segunda aula elementos em movimento."
+>}}
+
 ### Exercício 02
 
 Criar uma animação que seja um loop perfeito, ou seja o começo e o fim se encaixem dando a sensação de ser infinita. 
+
+{{< video
+  src="Aula03-Exercício02-01.mp4"
+  
+  legenda="Exemplo de resolução: composição tipográfica da segunda aula elementos em movimento."
+>}}
 
 ### Desafio:
 
