@@ -45,6 +45,7 @@ Trabalhos criados pelo designer [Dave Whyte](http://beesandbombs.com/).
 
   src="Aula03-BeesAndBombs-01.webp,Aula03-BeesAndBombs-02.webp,Aula03-BeesAndBombs-03.webp,Aula03-BeesAndBombs-04.webp,Aula03-BeesAndBombs-05.webp,Aula03-BeesAndBombs-06.webp"
   legenda="Animações do designer Bees and Bombs."
+  classes="duas-colunas"
 
 >}}
 
@@ -56,6 +57,7 @@ Trabalhos criados pelo designer [Just van Rossum](https://dailydrawbot.tumblr.co
 
   src="Aula03-DailyDrawbot-01.webp,Aula03-DailyDrawbot-02.webp,Aula03-DailyDrawbot-03.webp,Aula03-DailyDrawbot-04.webp,Aula03-DailyDrawbot-05.webp,Aula03-DailyDrawbot-06.webp"
   legenda="Animações do designer Just van Rossum."
+  classes="duas-colunas"
 
 >}}
 
@@ -67,6 +69,7 @@ Trabalhos criados pela artista [Seo Hyojung](https://www.instagram.com/seohyo/).
 
   src="Aula03-HyojungSeo-00.webp,Aula03-HyojungSeo-01.webp,Aula03-HyojungSeo-02.webp,Aula03-HyojungSeo-03.webp"
   legenda="Animações da artista Seo Hyojung."
+  classes="duas-colunas"
 
 >}}
 
