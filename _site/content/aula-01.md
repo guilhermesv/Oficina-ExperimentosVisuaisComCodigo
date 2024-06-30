@@ -110,7 +110,7 @@ Experimento explorando composições usando três formas primitivas:  circulo, q
 
 Identidade desenvolvida pelo [Daó](https://estudiodao.com) junto com a [Deia Kulpas](http://www.andreakulpas.com) para o 10º ano do DiaTipo SP, um encontro de Tipografia sem fins lucrativos. A identidade baseou-se em um padrão gerado a partir de fontes criadas por designers brasileiros, a fim de apresentar o conceito do DiaTipo: um evento construído ao longo de 10 anos por tipógrafos que cresceram junto com o evento.
 
-{{< botao texto="Mais informações aqui" href="ttps://www.behance.net/gallery/83219303/DiaTipo-Sao-Paulo-2018">}}
+{{< botao texto="Mais informações aqui" href="https://www.behance.net/gallery/83219303/DiaTipo-Sao-Paulo-2018">}}
 
 ### Nicholas Rougeux
 
@@ -139,7 +139,7 @@ Quando falamos em programação logo imaginamos uma tela cheia de códigos escri
 {{< figura 
   src="Aula-01-Blender.jpg"
   alt="Tela do prrograma Blender 3d, no lado esquerdo um esquema de nós que são pequenas caixas com entradas e saídas conectadas umas as outras e a direita o resultado do código, um emaranhado de linhas curvas em 3D."
-  legenda="Interface de programação com nós do Geometry Nodes no prrograma Blender 3d." 
+  legenda="Interface de programação com nós do Geometry Nodes no programa Blender 3d." 
 >}}
 
 Nesta oficina utilizaremos o Nodebox  que é um aplicativo que permite por meio da programação visual baseada em um sistema de nós criar peças de design gerativo, animação e visualização de dados em uma interface simples e amigável.

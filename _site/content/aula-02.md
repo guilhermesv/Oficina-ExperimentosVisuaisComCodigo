@@ -11,8 +11,6 @@ capa-alt: ""
 
 > Apesar do uso do termo generativo ser mais amplamente utilizado nos dias atuais, o termo mais adequado seria gerativo. Para facilitar futuras pesquisas e ficar em consonância com as referências apresentadas, por enquanto utilizarei o termo generativo.
 
-{{< comentario "Talvez tirar o comentário acima se não encontrar a referência">}}
-
 ## Definição
 
 O que faz um trabalho ser generativo e o que é arte/música/design/etc generativo?
