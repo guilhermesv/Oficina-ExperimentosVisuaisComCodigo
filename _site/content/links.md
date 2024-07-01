@@ -75,6 +75,7 @@ A classificação é bem genérica e muitos links poderiam caber em mais de uma 
 - [The Coding Train](https://thecodingtrain.com/)
 - [Tim Rodenbroeker](https://timrodenbroeker.de/)
 - [Grupo Programação Criativa no Telegram](https://t.me/programacaocriativa)
+- [Noite de Processing](https://garoa.net.br/wiki/Noite_de_Processing)
 
 ## Outras ferramentas para programação criativa
 

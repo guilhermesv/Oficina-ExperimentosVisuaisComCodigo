@@ -10,10 +10,10 @@ capa = 'Aula-01-Capa.jpg'
 
 ## 1. Por que é legal programar?
 
-- Autonomia: criar ferramentas, automatização e parametrização
-- Você trabalha mais no processo e menos no resultado
-- Racionalização do processo criativo
+- Você trabalha mais no processo e menos no resultado 
+- Racionalização do processo criativo 
 - Geração de possibilidades
+- Autonomia: criar ferramentas, automatização e parametrização
 - Expandir o espaço das ideias
 
 {{< figura 
