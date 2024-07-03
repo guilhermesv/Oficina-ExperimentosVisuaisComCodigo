@@ -52,7 +52,15 @@ A classificação é bem genérica e muitos links poderiam caber em mais de uma 
 - [João Generoso](https://joaogeneroso.com/pt-br/)
 - [Marie Malarme](https://link-in-bio.studiodev.xyz/)
 - [Marina Cardoso](https://marinacardoso.net/)
-
+- [davidope (dvdp)](https://www.instagram.com/dvdp/)
+- [Mateus Leston](https://leston.studio/pt-BR)
+- [Marcelo Prates](https://www.instagram.com/marcelo.o.r.prates/)
+- [Marie Malarme](https://marie.studiodev.xyz/)
+- [Talia Cotton](https://taliacotton.com/)
+- [Yehwan Song](https://yhsong.com/)
+- [Soyun Park](https://soyunparrrk.com/)
+- [Monica Losada](https://monicalosada.cargo.site/)
+- [Ksawery Kirklewski](https://ksawerykomputery.com/works/)
 
 ## Artistas ou projetos com foco em animação
 - [Motion Type Project](https://motiontypeproject.com/)
@@ -61,6 +69,12 @@ A classificação é bem genérica e muitos links poderiam caber em mais de uma 
 - [Max Cooper - Waves](https://vimeo.com/178612704)
 - [Echophon](http://echophon.tumblr.com/)
 - [Necessary Disorder](https://necessary-disorder.tumblr.com)
+
+## Projetos coletivos com código
+- [100 formas de contar de 1 a 100](https://1-100.github.io/)
+- [128kb](https://128kb.timrodenbroeker.de/)
+- [White Glove Tracking](http://www.whiteglovetracking.com/)
+- [Recode Project](http://recodeproject.com/)
 
 ## Materiais teóricos sobre pensamento e design computacional
 - [Design gráfico computacional: computação aplicada no projeto e na produção de imagens dinâmicas e interativas](https://www.teses.usp.br/teses/disponiveis/16/16134/tde-12092014-122450/pt-br.php)
@@ -77,10 +91,12 @@ A classificação é bem genérica e muitos links poderiam caber em mais de uma 
 - [Grupo Programação Criativa no Telegram](https://t.me/programacaocriativa)
 - [Noite de Processing](https://garoa.net.br/wiki/Noite_de_Processing)
 
-## Outras ferramentas para programação criativa
+## Ferramentas para programação criativa
 
+- [NodeBox 3](https://www.nodebox.net/)
 - [Processing](processing.org/)
 - [p5.js](https://p5js.org/)
 - [Cables](https://cables.gl/)
 - [OpenFrameworks](https://openframeworks.cc)
 - [Shoebot](https://shoebot.github.io/shoebot/)
+- [OPENRNDR](https://openrndr.org/)

@@ -9,7 +9,7 @@ capa-alt: ""
 
 # Conceitos
 
-> Apesar do uso do termo generativo ser mais amplamente utilizado nos dias atuais, o termo mais adequado seria gerativo. Para facilitar futuras pesquisas e ficar em consonância com as referências apresentadas, por enquanto utilizarei o termo generativo.
+> Apesar do uso do termo generativo ser mais amplamente utilizado nos dias atuais, o termo mais adequado seria gerativo vindo da palavra gerar. Para facilitar futuras pesquisas e ficar em consonância com as referências apresentadas, por enquanto utilizarei o termo generativo.
 
 ## Definição
 
@@ -132,6 +132,14 @@ Este trabalho foi desenvolvido com [Caio Grabalos](https://www.behance.net/caiog
 Publicação impressa criada com colagens generativas. O código produz duas variantes de arte que são combinadas para criar as imagens: grades de elementos lineares e recortes de fotos. As geradas no código são impressas, recortadas em formatos variados e inseridas em um saco plástico. Cada publicação possui um arranjo único de recortes.
 
 {{< figura 
+  src="Aula-02-Recortes-00.gif" 
+
+  alt="Animação com várias composições abstratas aparecendo em sequência. As composições são feitas com pedaços de fotografias e elementos lineares geométricos. O fundo da cada composição varia entre azul, preto e vermelho." 
+
+  legenda="Exemplo das composições gerada para a publicação Recortes antes de serem recortadas. <a href='https://guilhermevieira.info/trabalhos/recortes/'>Mais informações</a>" 
+>}}
+
+{{< figura 
   src="Aula-02-Recortes-01.jpg" 
 
   alt="Pedaços de papéis de diversos tamanhos estão dentro de uma saco plástico transparente. Cada papel possui impresso uma arte feita com elementos lineares geométricos, e recortes fotográficos. Predomina as cores azul, vermelho e amarelo. Um papel azul claro contém informações básicas sobre a publicação: título, e-mail da editora, ano de publicação e Qrcode para o código da publicação." 
@@ -161,7 +169,7 @@ Adicionar alguma aleatoriedade para os exercícios desenvolvidos na aula anterio
 
 
 {{< figura 
-  src="Aula-02-Exercício-01-Exemplo-02.png"
+  src="Aula-02-Exercício-01-Exemplo.png"
 
   alt="Losangos, círculos e estrelas nas cores laranja, verde e azul respectivamente sobre um fundo azul aparecem intercalados de maneira aleatória." 
 
@@ -176,7 +184,7 @@ Criar uma arte generativa utilizando:
 - Acrescentar um novo nó que não foi citado nas aulas.
 
 {{< figura 
-  src="Aula-02-Exercício-02-Exemplo-01.png" 
+  src="Aula-02-Exercício-02-Exemplo.png" 
 
   alt="O verso 'O saci pererê vai dançar de uma perna só' aparece composto com as letras distorcidas e rotacionadas sobre um fundo preto, as palavras são pintadas de azul e branco de forma intercalada." 
 
