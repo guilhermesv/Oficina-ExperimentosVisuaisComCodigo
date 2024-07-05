@@ -9,18 +9,18 @@
             <port name="fill" type="color" value="#00000000"/>
             <port name="strokeWidth" type="float" value="1.0"/>
         </node>
-        <node name="count1" position="13.00,7.00" prototype="list.count"/>
+        <node name="count1" position="13.00,6.00" prototype="list.count"/>
         <node name="ellipse1" position="12.00,4.00" prototype="corevector.ellipse">
             <port name="width" type="float" value="900.0"/>
             <port name="height" type="float" value="900.0"/>
         </node>
         <node name="first1" position="20.00,5.00" prototype="list.first"/>
-        <node name="first2" position="-5.00,7.00" prototype="list.first"/>
+        <node name="first2" position="2.00,7.00" prototype="list.first"/>
         <node name="frame1" position="23.00,3.00" prototype="core.frame"/>
         <node name="frame2" position="-2.00,5.00" prototype="core.frame"/>
         <node name="frame3" position="5.00,5.00" prototype="core.frame"/>
         <node name="line1" position="16.00,7.00" prototype="corevector.line">
-            <port name="point2" type="point" value="-254.00,-279.00"/>
+            <port name="point2" type="point" value="-148.00,-280.00"/>
         </node>
         <node name="make_strings1" position="-11.00,3.00" prototype="string.make_strings">
             <port name="string" type="string" value="Gato;Macaco;Cavalo;Anta;Capívara;Cachorro;Vaca"/>
@@ -47,38 +47,38 @@
             <port name="end" type="float" value="4.0"/>
         </node>
         <node name="shift1" position="-11.00,4.00" prototype="list.shift">
-            <port name="amount" type="int" value="20"/>
+            <port name="amount" type="int" value="414"/>
         </node>
         <node name="shift2" position="20.00,4.00" prototype="list.shift"/>
         <node name="shift3" position="-5.00,6.00" prototype="list.shift"/>
         <node name="shift4" position="2.00,6.00" prototype="list.shift"/>
-        <node name="slice1" position="2.00,7.00" prototype="list.slice"/>
+        <node name="slice2" position="-5.00,7.00" prototype="list.slice"/>
         <node name="translate1" position="12.00,12.00" prototype="corevector.translate"/>
-        <conn input="ellipse1.width" output="sample1"/>
-        <conn input="ellipse1.height" output="sample1"/>
         <conn input="colorize1.shape" output="ellipse1"/>
-        <conn input="resample1.shape" output="line1"/>
         <conn input="point1.value" output="resample1"/>
         <conn input="translate1.shape" output="colorize1"/>
-        <conn input="translate1.translate" output="point1"/>
         <conn input="point2.value" output="resample2"/>
         <conn input="shift2.list" output="point2"/>
         <conn input="first1.list" output="shift2"/>
-        <conn input="line1.point2" output="first1"/>
         <conn input="shift2.amount" output="frame1"/>
         <conn input="resample2.shape" output="rect1"/>
         <conn input="shift1.list" output="make_strings1"/>
         <conn input="resample3.shape" output="rect2"/>
         <conn input="point3.value" output="resample3"/>
         <conn input="shift3.list" output="point3"/>
-        <conn input="first2.list" output="shift3"/>
-        <conn input="shift3.amount" output="frame2"/>
         <conn input="resample4.shape" output="rect3"/>
         <conn input="point4.value" output="resample4"/>
         <conn input="shift4.list" output="point4"/>
         <conn input="shift4.amount" output="frame3"/>
-        <conn input="slice1.list" output="shift4"/>
         <conn input="count1.list" output="colorize1"/>
+        <conn input="shift3.amount" output="frame2"/>
+        <conn input="slice2.list" output="shift3"/>
+        <conn input="first2.list" output="shift4"/>
+        <conn input="ellipse1.width" output="sample1"/>
+        <conn input="ellipse1.height" output="sample1"/>
+        <conn input="resample1.shape" output="line1"/>
         <conn input="resample1.points" output="count1"/>
+        <conn input="translate1.translate" output="point1"/>
+        <conn input="line1.point2" output="first1"/>
     </node>
 </ndbx>

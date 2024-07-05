@@ -4,7 +4,7 @@
     <property name="canvasWidth" value="1000"/>
     <property name="canvasX" value="0"/>
     <property name="canvasY" value="0"/>
-    <node name="root" prototype="core.network" renderedChild="align1">
+    <node name="root" prototype="core.network" renderedChild="wave1">
         <node name="align1" position="7.00,4.00" prototype="corevector.align"/>
         <node name="colorize4" position="10.00,-16.00" prototype="corevector.colorize">
             <port name="fill" type="color" value="#0000ffff"/>
@@ -34,6 +34,7 @@
             <port name="height" type="float" value="20.0"/>
         </node>
         <node name="first2" position="6.00,-24.00" prototype="list.first"/>
+        <node name="frame1" position="-2.00,-1.00" prototype="core.frame"/>
         <node name="frame3" position="10.00,-27.00" prototype="core.frame"/>
         <node name="group1" position="7.00,3.00" prototype="corevector.group"/>
         <node name="group2" position="6.00,-10.00" prototype="corevector.group"/>
@@ -62,6 +63,8 @@
             <port name="value" type="float" value="511.0"/>
         </node>
         <node name="ondas" position="7.00,-1.00" prototype="core.network" renderedChild="group1">
+            <node name="add1" position="4.00,-1.00" prototype="math.add"/>
+            <node name="add2" position="8.00,-1.00" prototype="math.add"/>
             <node name="colorize1" position="7.00,5.00" prototype="corevector.colorize">
                 <port name="fill" type="color" value="#0000ffff"/>
             </node>
@@ -92,6 +95,9 @@
             <node name="first1" position="3.00,-3.00" prototype="list.first"/>
             <node name="frame2" position="7.00,-6.00" prototype="core.frame"/>
             <node name="group1" position="3.00,11.00" prototype="corevector.group"/>
+            <node name="integer1" position="13.00,-3.00" prototype="math.integer">
+                <port name="value" type="int" value="-250"/>
+            </node>
             <node name="line1" position="9.00,7.00" prototype="corevector.line"/>
             <node name="make_point2" position="7.00,3.00" prototype="corevector.make_point"/>
             <node name="make_point3" position="3.00,3.00" prototype="corevector.make_point"/>
@@ -104,10 +110,10 @@
             <node name="multiply1" position="7.00,-4.00" prototype="math.multiply">
                 <port name="value2" type="float" value="3.0"/>
             </node>
-            <node name="number1" position="7.00,-1.00" prototype="math.number">
+            <node name="number1" position="7.00,-2.00" prototype="math.number">
                 <port name="value" type="float" value="511.0"/>
             </node>
-            <node name="range2" position="3.00,-1.00" prototype="math.range">
+            <node name="range2" position="3.00,-2.00" prototype="math.range">
                 <port name="end" type="float" value="500.0"/>
             </node>
             <node name="rect1" position="0.00,8.00" prototype="corevector.rect">
@@ -118,7 +124,7 @@
             <node name="string1" position="3.00,-5.00" prototype="string.string"/>
             <node name="textpath1" position="0.00,-1.00" prototype="corevector.textpath">
                 <port name="align" type="string" value="LEFT"/>
-                <port name="position" type="point" value="0.00,100.00"/>
+                <port name="position" type="point" value="0.00,145.00"/>
             </node>
             <node name="wave3" position="8.00,1.00" prototype="math.wave">
                 <port name="min" type="float" value="-100.0"/>
@@ -129,15 +135,14 @@
                 <port name="period" type="float" value="500.0"/>
             </node>
             <port childReference="string1.value" description="" label="" name="onda" range="value" type="string" value="" widget="string"/>
+            <port childReference="integer1.value" description="" label="" name="offset" range="value" type="int" value="-250" widget="int"/>
             <conn input="make_point2.y" output="wave3"/>
             <conn input="ellipse2.position" output="make_point2"/>
             <conn input="make_point3.y" output="wave5"/>
             <conn input="ellipse4.position" output="make_point3"/>
-            <conn input="wave5.offset" output="range2"/>
             <conn input="make_point3.x" output="range2"/>
             <conn input="colorize1.shape" output="ellipse2"/>
             <conn input="make_point2.x" output="number1"/>
-            <conn input="wave3.offset" output="number1"/>
             <conn input="number1.value" output="mod1"/>
             <conn input="multiply1.value1" output="frame2"/>
             <conn input="mod1.value1" output="multiply1"/>
@@ -158,6 +163,12 @@
             <conn input="combine1.list2" output="ellipse4"/>
             <conn input="colorize4.shape" output="rect1"/>
             <conn input="combine1.list1" output="colorize4"/>
+            <conn input="add1.value1" output="range2"/>
+            <conn input="wave5.offset" output="add1"/>
+            <conn input="add2.value1" output="number1"/>
+            <conn input="wave3.offset" output="add2"/>
+            <conn input="add1.value2" output="integer1"/>
+            <conn input="add2.value2" output="integer1"/>
         </node>
         <node name="range3" position="6.00,-22.00" prototype="math.range">
             <port name="end" type="float" value="500.0"/>
@@ -190,14 +201,15 @@
             <port name="offset" type="float" value="-51.0"/>
         </node>
         <node name="wave2" position="-7.00,4.00" prototype="math.wave">
-            <port name="min" type="float" value="-100.0"/>
+            <port name="min" type="float" value="-143.0"/>
+            <port name="max" type="float" value="149.0"/>
             <port name="period" type="float" value="500.0"/>
             <port name="offset" type="float" value="867.0"/>
         </node>
         <node name="wave4" position="-2.00,1.00" prototype="math.wave">
             <port name="min" type="float" value="-100.0"/>
-            <port name="period" type="float" value="500.0"/>
-            <port name="offset" type="float" value="-552.0"/>
+            <port name="period" type="float" value="200.0"/>
+            <port name="offset" type="float" value="1591.0"/>
         </node>
         <node name="wave6" position="11.00,-20.00" prototype="math.wave">
             <port name="min" type="float" value="-100.0"/>
@@ -212,7 +224,6 @@
         <conn input="wave2.offset" output="sample1"/>
         <conn input="make_point1.x" output="sample1"/>
         <conn input="ellipse3.position" output="make_point5"/>
-        <conn input="make_point5.y" output="wave4"/>
         <conn input="make_point6.y" output="wave6"/>
         <conn input="ellipse8.position" output="make_point6"/>
         <conn input="make_point8.y" output="wave7"/>
@@ -248,5 +259,7 @@
         <conn input="group1.shapes" output="stack1"/>
         <conn input="stack1.shapes" output="ondas"/>
         <conn input="align1.shape" output="group1"/>
+        <conn input="make_point5.y" output="wave4"/>
+        <conn input="wave4.offset" output="frame1"/>
     </node>
 </ndbx>
